@@ -1,0 +1,4 @@
+Image-grounded LLM judge (model: gemma4:12b)
+============================================================
+captions judged: 6006 (scored: 6002, failures: 4)
+overall=4.267  fluency=4.925  relevance=4.31  object_accuracy=4.065  mean hallucinations/caption=0.237

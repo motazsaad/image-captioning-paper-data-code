@@ -1,0 +1,13 @@
+LLM Error Analysis (model: gemma4:12b)
+============================================================
+
+[ar_google] (n=6006)
+  mean repetition ratio : 0.012
+  mean overall quality  : 3.987
+  issues by category    : {'mt_artifact': 5433, 'grammar': 439, 'hallucination': 714, 'other': 34, 'repetition': 63, 'none': 1}
+      e.g. "مع بطنها" (Literal translation of 'with its belly up'. In Arabic, this phrasing is unnatural; it should be 'ببطنها للأعلى' or 'مستلقية على ظهرها'.)
+      e.g. "حضن الشخص" (The use of 'الشخص' (the person) is grammatically correct but stylistically weak; it lacks the definite article or specific context provided by the reference 'a person's lap'.)
+      e.g. "حجريها" (The word 'حجريها' (her lap/her stones) is a hallucination. The reference captions specify a 'laptop' (حاسوب محمول), but the model produced a word that is semantically unrelated to the image content.)
+      e.g. "كب كيك" (While 'كب كيك' is commonly used, it is a transliteration. However, in the context of machine translation, it is acceptable but less 'native' than a descriptive phrase.)
+      e.g. "تقف متوقفة" (Redundancy: 'تقف' (standing/stopped) and 'متوقفة' (parked/stopped) convey the same meaning in this context, creating a tautology.)
+      e.g. "caption" (The caption is a faithful translation of one of the reference captions and is grammatically correct.)

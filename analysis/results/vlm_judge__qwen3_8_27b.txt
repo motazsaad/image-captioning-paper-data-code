@@ -1,0 +1,4 @@
+Image-grounded LLM judge (model: qwen3.8:27b)
+============================================================
+captions judged: 6006 (scored: 6003, failures: 3)
+overall=4.245  fluency=4.833  relevance=4.134  object_accuracy=4.273  mean hallucinations/caption=0.186

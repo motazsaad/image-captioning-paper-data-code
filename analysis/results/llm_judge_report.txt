@@ -1,0 +1,4 @@
+LLM-as-Judge evaluation (model: ministral-3:14b)
+============================================================
+config      n    fluency  relevance obj_acc   overall 
+ar_google   6006 4.98     4.26      4.16      4.32    

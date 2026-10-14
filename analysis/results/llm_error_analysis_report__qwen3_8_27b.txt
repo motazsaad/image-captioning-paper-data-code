@@ -1,0 +1,12 @@
+LLM Error Analysis (model: qwen3.8:27b)
+============================================================
+
+[ar_google] (n=6006)
+  mean repetition ratio : 0.012
+  mean overall quality  : 4.096
+  issues by category    : {'mt_artifact': 2042, 'grammar': 1784, 'hallucination': 875, 'repetition': 77, 'other': 98}
+      e.g. "مع بطنها" (The phrase 'with its belly' is a literal calque of the English reference 'sits with his belly up'. In natural Arabic, one would say 'مقلوبة على ظهرها' (upside down on its back) or 'بطنها للأعلى' (belly up), rather than the awkward 'with its belly'.)
+      e.g. "الشخص" (The definite article 'al-' is used with 'person' (الشخص), implying a specific, previously mentioned person. In a standalone caption describing a generic scene, the indefinite form 'شخص' or a possessive structure like 'حضن شخص' is more appropriate unless the person is the subject of the sentence.)
+      e.g. "الحلويات" (The generated caption claims the food consists of 'desserts' (الحلويات). However, the reference captions describe the items as 'porridge', 'fruit', 'bread', and 'congealed salad' (likely yogurt or a savory dish). Describing a breakfast of porridge and fruit as 'desserts' is factually incorrect based on the provided references.)
+      e.g. "تقف متوقفة" (Redundant phrasing. 'تقف' (stands) and 'متوقفة' (stopped/parked) convey the same state, creating a tautology. A more natural Arabic phrasing would be simply 'شاحنة متوقفة' or 'شاحنة واقفة'.)
+      e.g. "هيكل" (The word 'هيكل' (structure/skeleton) is a very generic and somewhat awkward translation for 'grandfather clock' or 'clock case'. While not a hallucination, it lacks the specificity and naturalness of 'ساعة حائط' or 'ساعة أرضية' or simply 'ساعة'.)

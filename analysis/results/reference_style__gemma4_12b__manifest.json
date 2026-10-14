@@ -1,0 +1,19 @@
+{
+  "experiment": "reference-style sensitivity",
+  "inputs": "/home/msaad/githubRepos/image-captioning-paper/analysis/results/crosslingual_consistency__gemma4_12b.json",
+  "caption_files": {
+    "direct_english": "/home/msaad/githubRepos/image-captioning-paper/analysis/results/reference_style__gemma4_12b__direct_en.json",
+    "arabic_google_reference": "/home/msaad/githubRepos/image-captioning-paper/analysis/results/reference_style__gemma4_12b__arabic_google.json",
+    "backtranslated_english": "/home/msaad/githubRepos/image-captioning-paper/analysis/results/reference_style__gemma4_12b__backtranslated_en.json"
+  },
+  "n": {
+    "direct_english": 1198,
+    "arabic_google_reference": 1198,
+    "backtranslated_english": 1198
+  },
+  "metric_files": {
+    "direct_english": "/home/msaad/githubRepos/image-captioning-paper/analysis/results/reference_style__gemma4_12b__direct_en__metrics__eng_refs.json",
+    "arabic_google_reference": "/home/msaad/githubRepos/image-captioning-paper/analysis/results/reference_style__gemma4_12b__arabic_google__metrics__ar_google.json",
+    "backtranslated_english": "/home/msaad/githubRepos/image-captioning-paper/analysis/results/reference_style__gemma4_12b__backtranslated_en__metrics__eng_refs.json"
+  }
+}

@@ -1,0 +1,4 @@
+VLM captioning (model: qwen3.8:27b, lang: en)
+============================================================
+images: 1200   captioning success: 1200
+mean caption length (words): 28.0

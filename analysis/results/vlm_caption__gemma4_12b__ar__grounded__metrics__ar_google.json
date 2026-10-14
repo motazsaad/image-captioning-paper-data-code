@@ -1,0 +1,7217 @@
+{
+  "model": "gemma4:12b",
+  "lang": "ar",
+  "refs": "ar_google",
+  "n": 1200,
+  "metrics": {
+    "BLEU-1": 0.2625,
+    "BLEU-2": 0.1403,
+    "BLEU-3": 0.0727,
+    "BLEU-4": 0.0351,
+    "BLEUavg": 0.1277,
+    "ROUGE-L": 0.2691,
+    "CIDEr": 0.1498
+  },
+  "per_image": {
+    "0": {
+      "bleu1": 0.08,
+      "rouge": 0.1391,
+      "cider": 0.0027,
+      "meteor": null
+    },
+    "1": {
+      "bleu1": 0.1923,
+      "rouge": 0.2601,
+      "cider": 0.0015,
+      "meteor": null
+    },
+    "2": {
+      "bleu1": 0.2105,
+      "rouge": 0.229,
+      "cider": 0.0166,
+      "meteor": null
+    },
+    "3": {
+      "bleu1": 0.25,
+      "rouge": 0.1981,
+      "cider": 0.0551,
+      "meteor": null
+    },
+    "4": {
+      "bleu1": 0.1765,
+      "rouge": 0.1903,
+      "cider": 0.0412,
+      "meteor": null
+    },
+    "5": {
+      "bleu1": 0.1522,
+      "rouge": 0.1697,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "6": {
+      "bleu1": 0.3333,
+      "rouge": 0.3112,
+      "cider": 0.1031,
+      "meteor": null
+    },
+    "7": {
+      "bleu1": 0.24,
+      "rouge": 0.2571,
+      "cider": 0.0039,
+      "meteor": null
+    },
+    "8": {
+      "bleu1": 0.375,
+      "rouge": 0.4678,
+      "cider": 0.3456,
+      "meteor": null
+    },
+    "9": {
+      "bleu1": 0.16,
+      "rouge": 0.2273,
+      "cider": 0.0016,
+      "meteor": null
+    },
+    "10": {
+      "bleu1": 0.08,
+      "rouge": 0.1451,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "11": {
+      "bleu1": 0.1765,
+      "rouge": 0.1008,
+      "cider": 0.0137,
+      "meteor": null
+    },
+    "12": {
+      "bleu1": 0.1,
+      "rouge": 0.1481,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "13": {
+      "bleu1": 0.2083,
+      "rouge": 0.2061,
+      "cider": 0.0081,
+      "meteor": null
+    },
+    "14": {
+      "bleu1": 0.375,
+      "rouge": 0.25,
+      "cider": 0.2165,
+      "meteor": null
+    },
+    "15": {
+      "bleu1": 0.0625,
+      "rouge": 0.1121,
+      "cider": 0.0566,
+      "meteor": null
+    },
+    "16": {
+      "bleu1": 0.2381,
+      "rouge": 0.1501,
+      "cider": 0.0055,
+      "meteor": null
+    },
+    "17": {
+      "bleu1": 0.375,
+      "rouge": 0.3211,
+      "cider": 0.1134,
+      "meteor": null
+    },
+    "18": {
+      "bleu1": 0.0714,
+      "rouge": 0.0905,
+      "cider": 0.0724,
+      "meteor": null
+    },
+    "19": {
+      "bleu1": 0.4167,
+      "rouge": 0.5351,
+      "cider": 0.5156,
+      "meteor": null
+    },
+    "20": {
+      "bleu1": 0.1905,
+      "rouge": 0.2251,
+      "cider": 0.0148,
+      "meteor": null
+    },
+    "21": {
+      "bleu1": 0.4,
+      "rouge": 0.3096,
+      "cider": 0.0613,
+      "meteor": null
+    },
+    "22": {
+      "bleu1": 0.2381,
+      "rouge": 0.1646,
+      "cider": 0.0043,
+      "meteor": null
+    },
+    "23": {
+      "bleu1": 0.3125,
+      "rouge": 0.3742,
+      "cider": 0.1833,
+      "meteor": null
+    },
+    "24": {
+      "bleu1": 0.2,
+      "rouge": 0.2221,
+      "cider": 0.0285,
+      "meteor": null
+    },
+    "25": {
+      "bleu1": 0.1667,
+      "rouge": 0.1495,
+      "cider": 0.001,
+      "meteor": null
+    },
+    "26": {
+      "bleu1": 0.1333,
+      "rouge": 0.1175,
+      "cider": 0.0079,
+      "meteor": null
+    },
+    "27": {
+      "bleu1": 0.2,
+      "rouge": 0.2221,
+      "cider": 0.0329,
+      "meteor": null
+    },
+    "28": {
+      "bleu1": 0.6111,
+      "rouge": 0.4729,
+      "cider": 0.3319,
+      "meteor": null
+    },
+    "29": {
+      "bleu1": 0.3636,
+      "rouge": 0.3727,
+      "cider": 0.1622,
+      "meteor": null
+    },
+    "30": {
+      "bleu1": 0.1538,
+      "rouge": 0.2255,
+      "cider": 0.2511,
+      "meteor": null
+    },
+    "31": {
+      "bleu1": 0.15,
+      "rouge": 0.1704,
+      "cider": 0.0079,
+      "meteor": null
+    },
+    "32": {
+      "bleu1": 0.2778,
+      "rouge": 0.2259,
+      "cider": 0.0965,
+      "meteor": null
+    },
+    "33": {
+      "bleu1": 0.28,
+      "rouge": 0.2087,
+      "cider": 0.0133,
+      "meteor": null
+    },
+    "34": {
+      "bleu1": 0.2222,
+      "rouge": 0.1832,
+      "cider": 0.0608,
+      "meteor": null
+    },
+    "35": {
+      "bleu1": 0.1538,
+      "rouge": 0.2114,
+      "cider": 0.1867,
+      "meteor": null
+    },
+    "36": {
+      "bleu1": 0.5455,
+      "rouge": 0.4738,
+      "cider": 0.4511,
+      "meteor": null
+    },
+    "37": {
+      "bleu1": 0.1429,
+      "rouge": 0.1501,
+      "cider": 0.0125,
+      "meteor": null
+    },
+    "38": {
+      "bleu1": 0.1818,
+      "rouge": 0.1593,
+      "cider": 0.0072,
+      "meteor": null
+    },
+    "39": {
+      "bleu1": 0.2822,
+      "rouge": 0.2933,
+      "cider": 0.1564,
+      "meteor": null
+    },
+    "40": {
+      "bleu1": 0.0769,
+      "rouge": 0.1128,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "41": {
+      "bleu1": 0.5714,
+      "rouge": 0.6873,
+      "cider": 1.5644,
+      "meteor": null
+    },
+    "42": {
+      "bleu1": 0.3333,
+      "rouge": 0.3491,
+      "cider": 0.0864,
+      "meteor": null
+    },
+    "43": {
+      "bleu1": 0.28,
+      "rouge": 0.2045,
+      "cider": 0.0026,
+      "meteor": null
+    },
+    "44": {
+      "bleu1": 0.2941,
+      "rouge": 0.2567,
+      "cider": 0.0983,
+      "meteor": null
+    },
+    "45": {
+      "bleu1": 0.2936,
+      "rouge": 0.2528,
+      "cider": 0.0873,
+      "meteor": null
+    },
+    "46": {
+      "bleu1": 0.3889,
+      "rouge": 0.2607,
+      "cider": 0.0847,
+      "meteor": null
+    },
+    "47": {
+      "bleu1": 0.3333,
+      "rouge": 0.276,
+      "cider": 0.2251,
+      "meteor": null
+    },
+    "48": {
+      "bleu1": 0.375,
+      "rouge": 0.266,
+      "cider": 0.1703,
+      "meteor": null
+    },
+    "49": {
+      "bleu1": 0.4,
+      "rouge": 0.3096,
+      "cider": 0.3788,
+      "meteor": null
+    },
+    "50": {
+      "bleu1": 0.2667,
+      "rouge": 0.332,
+      "cider": 0.1141,
+      "meteor": null
+    },
+    "51": {
+      "bleu1": 0.2,
+      "rouge": 0.1794,
+      "cider": 0.0205,
+      "meteor": null
+    },
+    "52": {
+      "bleu1": 0.3,
+      "rouge": 0.3645,
+      "cider": 0.2353,
+      "meteor": null
+    },
+    "53": {
+      "bleu1": 0.1111,
+      "rouge": 0.0968,
+      "cider": 0.0072,
+      "meteor": null
+    },
+    "54": {
+      "bleu1": 0.2308,
+      "rouge": 0.2255,
+      "cider": 0.0493,
+      "meteor": null
+    },
+    "55": {
+      "bleu1": 0.1111,
+      "rouge": 0.1974,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "56": {
+      "bleu1": 0.3571,
+      "rouge": 0.2715,
+      "cider": 0.0813,
+      "meteor": null
+    },
+    "57": {
+      "bleu1": 0.1,
+      "rouge": 0.1134,
+      "cider": 0.001,
+      "meteor": null
+    },
+    "58": {
+      "bleu1": 0.7,
+      "rouge": 0.3927,
+      "cider": 0.4793,
+      "meteor": null
+    },
+    "59": {
+      "bleu1": 0.1905,
+      "rouge": 0.2355,
+      "cider": 0.0189,
+      "meteor": null
+    },
+    "60": {
+      "bleu1": 0.1579,
+      "rouge": 0.1678,
+      "cider": 0.0112,
+      "meteor": null
+    },
+    "61": {
+      "bleu1": 0.1034,
+      "rouge": 0.1839,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "62": {
+      "bleu1": 0.4545,
+      "rouge": 0.3727,
+      "cider": 0.4842,
+      "meteor": null
+    },
+    "63": {
+      "bleu1": 0.16,
+      "rouge": 0.2004,
+      "cider": 0.0034,
+      "meteor": null
+    },
+    "64": {
+      "bleu1": 0.0909,
+      "rouge": 0.1242,
+      "cider": 0.0884,
+      "meteor": null
+    },
+    "65": {
+      "bleu1": 0.2381,
+      "rouge": 0.1646,
+      "cider": 0.016,
+      "meteor": null
+    },
+    "66": {
+      "bleu1": 0.125,
+      "rouge": 0.099,
+      "cider": 0.0114,
+      "meteor": null
+    },
+    "67": {
+      "bleu1": 0.2,
+      "rouge": 0.2556,
+      "cider": 0.0181,
+      "meteor": null
+    },
+    "68": {
+      "bleu1": 0.3333,
+      "rouge": 0.173,
+      "cider": 0.0079,
+      "meteor": null
+    },
+    "69": {
+      "bleu1": 0.25,
+      "rouge": 0.3096,
+      "cider": 0.0339,
+      "meteor": null
+    },
+    "70": {
+      "bleu1": 0.375,
+      "rouge": 0.2528,
+      "cider": 0.1131,
+      "meteor": null
+    },
+    "71": {
+      "bleu1": 0.3214,
+      "rouge": 0.247,
+      "cider": 0.0054,
+      "meteor": null
+    },
+    "72": {
+      "bleu1": 0.4545,
+      "rouge": 0.3472,
+      "cider": 0.4573,
+      "meteor": null
+    },
+    "73": {
+      "bleu1": 0.4211,
+      "rouge": 0.3356,
+      "cider": 0.0871,
+      "meteor": null
+    },
+    "74": {
+      "bleu1": 0.037,
+      "rouge": 0.0658,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "75": {
+      "bleu1": 0.3125,
+      "rouge": 0.2971,
+      "cider": 0.1931,
+      "meteor": null
+    },
+    "76": {
+      "bleu1": 0.15,
+      "rouge": 0.1481,
+      "cider": 0.0109,
+      "meteor": null
+    },
+    "77": {
+      "bleu1": 0.1429,
+      "rouge": 0.157,
+      "cider": 0.014,
+      "meteor": null
+    },
+    "78": {
+      "bleu1": 0.0952,
+      "rouge": 0.0785,
+      "cider": 0.0012,
+      "meteor": null
+    },
+    "79": {
+      "bleu1": 0.4286,
+      "rouge": 0.4088,
+      "cider": 0.3268,
+      "meteor": null
+    },
+    "80": {
+      "bleu1": 0.3077,
+      "rouge": 0.3172,
+      "cider": 0.6289,
+      "meteor": null
+    },
+    "81": {
+      "bleu1": 0.6667,
+      "rouge": 0.5771,
+      "cider": 0.4671,
+      "meteor": null
+    },
+    "82": {
+      "bleu1": 0.4167,
+      "rouge": 0.415,
+      "cider": 0.3132,
+      "meteor": null
+    },
+    "83": {
+      "bleu1": 0.1875,
+      "rouge": 0.1871,
+      "cider": 0.0626,
+      "meteor": null
+    },
+    "84": {
+      "bleu1": 0.3333,
+      "rouge": 0.2558,
+      "cider": 0.0554,
+      "meteor": null
+    },
+    "85": {
+      "bleu1": 0.1724,
+      "rouge": 0.1249,
+      "cider": 0.0013,
+      "meteor": null
+    },
+    "86": {
+      "bleu1": 0.5455,
+      "rouge": 0.611,
+      "cider": 2.6387,
+      "meteor": null
+    },
+    "87": {
+      "bleu1": 0.5,
+      "rouge": 0.6008,
+      "cider": 0.7977,
+      "meteor": null
+    },
+    "88": {
+      "bleu1": 0.2,
+      "rouge": 0.2919,
+      "cider": 0.077,
+      "meteor": null
+    },
+    "89": {
+      "bleu1": 0.5333,
+      "rouge": 0.2618,
+      "cider": 0.1743,
+      "meteor": null
+    },
+    "90": {
+      "bleu1": 0.2353,
+      "rouge": 0.3422,
+      "cider": 0.1396,
+      "meteor": null
+    },
+    "91": {
+      "bleu1": 0.4706,
+      "rouge": 0.3604,
+      "cider": 0.2564,
+      "meteor": null
+    },
+    "92": {
+      "bleu1": 0.1333,
+      "rouge": 0.1032,
+      "cider": 0.0072,
+      "meteor": null
+    },
+    "93": {
+      "bleu1": 0.2727,
+      "rouge": 0.364,
+      "cider": 0.0134,
+      "meteor": null
+    },
+    "94": {
+      "bleu1": 0.2174,
+      "rouge": 0.1957,
+      "cider": 0.0145,
+      "meteor": null
+    },
+    "95": {
+      "bleu1": 0.1034,
+      "rouge": 0.1348,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "96": {
+      "bleu1": 0.3125,
+      "rouge": 0.2807,
+      "cider": 0.1342,
+      "meteor": null
+    },
+    "97": {
+      "bleu1": 0.3125,
+      "rouge": 0.2807,
+      "cider": 0.0861,
+      "meteor": null
+    },
+    "98": {
+      "bleu1": 0.3333,
+      "rouge": 0.415,
+      "cider": 0.1142,
+      "meteor": null
+    },
+    "99": {
+      "bleu1": 0.2667,
+      "rouge": 0.276,
+      "cider": 0.137,
+      "meteor": null
+    },
+    "100": {
+      "bleu1": 0.2857,
+      "rouge": 0.2355,
+      "cider": 0.0104,
+      "meteor": null
+    },
+    "101": {
+      "bleu1": 0.3889,
+      "rouge": 0.2607,
+      "cider": 0.0746,
+      "meteor": null
+    },
+    "102": {
+      "bleu1": 0.25,
+      "rouge": 0.2807,
+      "cider": 0.202,
+      "meteor": null
+    },
+    "103": {
+      "bleu1": 0.3846,
+      "rouge": 0.47,
+      "cider": 0.3588,
+      "meteor": null
+    },
+    "104": {
+      "bleu1": 0.1429,
+      "rouge": 0.2596,
+      "cider": 0.013,
+      "meteor": null
+    },
+    "105": {
+      "bleu1": 0.3158,
+      "rouge": 0.2648,
+      "cider": 0.0193,
+      "meteor": null
+    },
+    "106": {
+      "bleu1": 0.35,
+      "rouge": 0.2377,
+      "cider": 0.0257,
+      "meteor": null
+    },
+    "107": {
+      "bleu1": 0.6641,
+      "rouge": 0.6539,
+      "cider": 0.9371,
+      "meteor": null
+    },
+    "108": {
+      "bleu1": 0.3158,
+      "rouge": 0.2517,
+      "cider": 0.0287,
+      "meteor": null
+    },
+    "109": {
+      "bleu1": 0.6364,
+      "rouge": 0.6212,
+      "cider": 0.8358,
+      "meteor": null
+    },
+    "110": {
+      "bleu1": 0.2381,
+      "rouge": 0.2302,
+      "cider": 0.0132,
+      "meteor": null
+    },
+    "111": {
+      "bleu1": 0.16,
+      "rouge": 0.1391,
+      "cider": 0.0032,
+      "meteor": null
+    },
+    "112": {
+      "bleu1": 0.2,
+      "rouge": 0.1946,
+      "cider": 0.0231,
+      "meteor": null
+    },
+    "113": {
+      "bleu1": 0.0556,
+      "rouge": 0.0916,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "114": {
+      "bleu1": 0.1034,
+      "rouge": 0.0648,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "115": {
+      "bleu1": 0.1667,
+      "rouge": 0.1738,
+      "cider": 0.0229,
+      "meteor": null
+    },
+    "116": {
+      "bleu1": 0.2381,
+      "rouge": 0.3461,
+      "cider": 0.0283,
+      "meteor": null
+    },
+    "117": {
+      "bleu1": 0.25,
+      "rouge": 0.2542,
+      "cider": 0.0185,
+      "meteor": null
+    },
+    "118": {
+      "bleu1": 0.2308,
+      "rouge": 0.188,
+      "cider": 0.218,
+      "meteor": null
+    },
+    "119": {
+      "bleu1": 0.3846,
+      "rouge": 0.451,
+      "cider": 0.1987,
+      "meteor": null
+    },
+    "120": {
+      "bleu1": 0.2222,
+      "rouge": 0.1738,
+      "cider": 0.0454,
+      "meteor": null
+    },
+    "121": {
+      "bleu1": 0.2632,
+      "rouge": 0.1766,
+      "cider": 0.0117,
+      "meteor": null
+    },
+    "122": {
+      "bleu1": 0.1429,
+      "rouge": 0.1078,
+      "cider": 0.0171,
+      "meteor": null
+    },
+    "123": {
+      "bleu1": 0.1333,
+      "rouge": 0.1946,
+      "cider": 0.0688,
+      "meteor": null
+    },
+    "124": {
+      "bleu1": 0.3571,
+      "rouge": 0.3437,
+      "cider": 0.1817,
+      "meteor": null
+    },
+    "125": {
+      "bleu1": 0.3214,
+      "rouge": 0.2563,
+      "cider": 0.0033,
+      "meteor": null
+    },
+    "126": {
+      "bleu1": 0.3,
+      "rouge": 0.3701,
+      "cider": 0.0438,
+      "meteor": null
+    },
+    "127": {
+      "bleu1": 0.4211,
+      "rouge": 0.4383,
+      "cider": 0.1655,
+      "meteor": null
+    },
+    "128": {
+      "bleu1": 0.3182,
+      "rouge": 0.372,
+      "cider": 0.0308,
+      "meteor": null
+    },
+    "129": {
+      "bleu1": 0.1875,
+      "rouge": 0.1981,
+      "cider": 0.0538,
+      "meteor": null
+    },
+    "130": {
+      "bleu1": 0.4,
+      "rouge": 0.2618,
+      "cider": 0.0554,
+      "meteor": null
+    },
+    "131": {
+      "bleu1": 0.2105,
+      "rouge": 0.2648,
+      "cider": 0.0273,
+      "meteor": null
+    },
+    "132": {
+      "bleu1": 0.1,
+      "rouge": 0.1309,
+      "cider": 0.035,
+      "meteor": null
+    },
+    "133": {
+      "bleu1": 0.1429,
+      "rouge": 0.173,
+      "cider": 0.0057,
+      "meteor": null
+    },
+    "134": {
+      "bleu1": 0.3125,
+      "rouge": 0.3961,
+      "cider": 0.2308,
+      "meteor": null
+    },
+    "135": {
+      "bleu1": 0.125,
+      "rouge": 0.1495,
+      "cider": 0.001,
+      "meteor": null
+    },
+    "136": {
+      "bleu1": 0.625,
+      "rouge": 0.4049,
+      "cider": 0.9052,
+      "meteor": null
+    },
+    "137": {
+      "bleu1": 0.1154,
+      "rouge": 0.1301,
+      "cider": 0.0014,
+      "meteor": null
+    },
+    "138": {
+      "bleu1": 0.2,
+      "rouge": 0.2064,
+      "cider": 0.0572,
+      "meteor": null
+    },
+    "139": {
+      "bleu1": 0.2308,
+      "rouge": 0.2416,
+      "cider": 0.0719,
+      "meteor": null
+    },
+    "140": {
+      "bleu1": 0.6111,
+      "rouge": 0.6489,
+      "cider": 0.3504,
+      "meteor": null
+    },
+    "141": {
+      "bleu1": 0.3125,
+      "rouge": 0.337,
+      "cider": 0.1537,
+      "meteor": null
+    },
+    "142": {
+      "bleu1": 0.2727,
+      "rouge": 0.2315,
+      "cider": 0.0889,
+      "meteor": null
+    },
+    "143": {
+      "bleu1": 0.1364,
+      "rouge": 0.0836,
+      "cider": 0.0023,
+      "meteor": null
+    },
+    "144": {
+      "bleu1": 0.1765,
+      "rouge": 0.1903,
+      "cider": 0.0479,
+      "meteor": null
+    },
+    "145": {
+      "bleu1": 0.12,
+      "rouge": 0.1451,
+      "cider": 0.0012,
+      "meteor": null
+    },
+    "146": {
+      "bleu1": 0.125,
+      "rouge": 0.099,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "147": {
+      "bleu1": 0.2857,
+      "rouge": 0.2155,
+      "cider": 0.0529,
+      "meteor": null
+    },
+    "148": {
+      "bleu1": 0.1053,
+      "rouge": 0.1766,
+      "cider": 0.0168,
+      "meteor": null
+    },
+    "149": {
+      "bleu1": 0.4286,
+      "rouge": 0.4781,
+      "cider": 0.335,
+      "meteor": null
+    },
+    "150": {
+      "bleu1": 0.2632,
+      "rouge": 0.229,
+      "cider": 0.0533,
+      "meteor": null
+    },
+    "151": {
+      "bleu1": 0.5556,
+      "rouge": 0.5115,
+      "cider": 1.099,
+      "meteor": null
+    },
+    "152": {
+      "bleu1": 0.0,
+      "rouge": 0.0,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "153": {
+      "bleu1": 0.5,
+      "rouge": 0.5525,
+      "cider": 0.9345,
+      "meteor": null
+    },
+    "154": {
+      "bleu1": 0.2632,
+      "rouge": 0.2922,
+      "cider": 0.1082,
+      "meteor": null
+    },
+    "155": {
+      "bleu1": 0.25,
+      "rouge": 0.1622,
+      "cider": 0.0116,
+      "meteor": null
+    },
+    "156": {
+      "bleu1": 0.4,
+      "rouge": 0.3892,
+      "cider": 0.3055,
+      "meteor": null
+    },
+    "157": {
+      "bleu1": 0.3125,
+      "rouge": 0.2971,
+      "cider": 0.1011,
+      "meteor": null
+    },
+    "158": {
+      "bleu1": 0.4286,
+      "rouge": 0.3437,
+      "cider": 0.5337,
+      "meteor": null
+    },
+    "159": {
+      "bleu1": 0.2,
+      "rouge": 0.1704,
+      "cider": 0.0111,
+      "meteor": null
+    },
+    "160": {
+      "bleu1": 0.1111,
+      "rouge": 0.1653,
+      "cider": 0.0946,
+      "meteor": null
+    },
+    "161": {
+      "bleu1": 0.25,
+      "rouge": 0.2243,
+      "cider": 0.0084,
+      "meteor": null
+    },
+    "162": {
+      "bleu1": 0.2941,
+      "rouge": 0.3669,
+      "cider": 0.1102,
+      "meteor": null
+    },
+    "163": {
+      "bleu1": 0.25,
+      "rouge": 0.3315,
+      "cider": 0.2674,
+      "meteor": null
+    },
+    "164": {
+      "bleu1": 0.5385,
+      "rouge": 0.398,
+      "cider": 0.6066,
+      "meteor": null
+    },
+    "165": {
+      "bleu1": 0.2353,
+      "rouge": 0.1903,
+      "cider": 0.0263,
+      "meteor": null
+    },
+    "166": {
+      "bleu1": 0.4444,
+      "rouge": 0.3152,
+      "cider": 0.0809,
+      "meteor": null
+    },
+    "167": {
+      "bleu1": 0.7,
+      "rouge": 0.5236,
+      "cider": 1.0845,
+      "meteor": null
+    },
+    "168": {
+      "bleu1": 0.0526,
+      "rouge": 0.0839,
+      "cider": 0.0004,
+      "meteor": null
+    },
+    "169": {
+      "bleu1": 0.1739,
+      "rouge": 0.2036,
+      "cider": 0.0067,
+      "meteor": null
+    },
+    "170": {
+      "bleu1": 0.15,
+      "rouge": 0.1622,
+      "cider": 0.0333,
+      "meteor": null
+    },
+    "171": {
+      "bleu1": 0.5556,
+      "rouge": 0.5533,
+      "cider": 0.6344,
+      "meteor": null
+    },
+    "172": {
+      "bleu1": 0.25,
+      "rouge": 0.1622,
+      "cider": 0.017,
+      "meteor": null
+    },
+    "173": {
+      "bleu1": 0.1739,
+      "rouge": 0.1475,
+      "cider": 0.0031,
+      "meteor": null
+    },
+    "174": {
+      "bleu1": 0.2667,
+      "rouge": 0.1946,
+      "cider": 0.0416,
+      "meteor": null
+    },
+    "175": {
+      "bleu1": 0.1818,
+      "rouge": 0.1521,
+      "cider": 0.0064,
+      "meteor": null
+    },
+    "176": {
+      "bleu1": 0.2667,
+      "rouge": 0.3297,
+      "cider": 0.2132,
+      "meteor": null
+    },
+    "177": {
+      "bleu1": 0.2,
+      "rouge": 0.3245,
+      "cider": 0.0455,
+      "meteor": null
+    },
+    "178": {
+      "bleu1": 0.2,
+      "rouge": 0.3096,
+      "cider": 0.0525,
+      "meteor": null
+    },
+    "179": {
+      "bleu1": 0.15,
+      "rouge": 0.0897,
+      "cider": 0.0109,
+      "meteor": null
+    },
+    "180": {
+      "bleu1": 0.12,
+      "rouge": 0.1391,
+      "cider": 0.001,
+      "meteor": null
+    },
+    "181": {
+      "bleu1": 0.7778,
+      "rouge": 0.5945,
+      "cider": 1.151,
+      "meteor": null
+    },
+    "182": {
+      "bleu1": 0.16,
+      "rouge": 0.1239,
+      "cider": 0.0011,
+      "meteor": null
+    },
+    "183": {
+      "bleu1": 0.4615,
+      "rouge": 0.5126,
+      "cider": 0.4861,
+      "meteor": null
+    },
+    "184": {
+      "bleu1": 0.2857,
+      "rouge": 0.1235,
+      "cider": 0.088,
+      "meteor": null
+    },
+    "185": {
+      "bleu1": 0.1667,
+      "rouge": 0.2259,
+      "cider": 0.042,
+      "meteor": null
+    },
+    "186": {
+      "bleu1": 0.2381,
+      "rouge": 0.3925,
+      "cider": 0.0393,
+      "meteor": null
+    },
+    "187": {
+      "bleu1": 0.5,
+      "rouge": 0.6076,
+      "cider": 0.9094,
+      "meteor": null
+    },
+    "188": {
+      "bleu1": 0.2667,
+      "rouge": 0.2064,
+      "cider": 0.1117,
+      "meteor": null
+    },
+    "189": {
+      "bleu1": 0.2667,
+      "rouge": 0.3096,
+      "cider": 0.0515,
+      "meteor": null
+    },
+    "190": {
+      "bleu1": 0.3125,
+      "rouge": 0.4678,
+      "cider": 0.1551,
+      "meteor": null
+    },
+    "191": {
+      "bleu1": 0.3125,
+      "rouge": 0.3742,
+      "cider": 0.0914,
+      "meteor": null
+    },
+    "192": {
+      "bleu1": 0.4167,
+      "rouge": 0.2629,
+      "cider": 0.2475,
+      "meteor": null
+    },
+    "193": {
+      "bleu1": 0.3571,
+      "rouge": 0.3233,
+      "cider": 0.1368,
+      "meteor": null
+    },
+    "194": {
+      "bleu1": 0.2105,
+      "rouge": 0.1527,
+      "cider": 0.0356,
+      "meteor": null
+    },
+    "195": {
+      "bleu1": 0.1176,
+      "rouge": 0.1554,
+      "cider": 0.029,
+      "meteor": null
+    },
+    "196": {
+      "bleu1": 0.3,
+      "rouge": 0.3096,
+      "cider": 0.0781,
+      "meteor": null
+    },
+    "197": {
+      "bleu1": 0.2353,
+      "rouge": 0.1711,
+      "cider": 0.0401,
+      "meteor": null
+    },
+    "198": {
+      "bleu1": 0.2727,
+      "rouge": 0.2282,
+      "cider": 0.028,
+      "meteor": null
+    },
+    "199": {
+      "bleu1": 0.7143,
+      "rouge": 0.3824,
+      "cider": 0.5653,
+      "meteor": null
+    },
+    "200": {
+      "bleu1": 0.0769,
+      "rouge": 0.1253,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "201": {
+      "bleu1": 0.4,
+      "rouge": 0.3,
+      "cider": 0.1762,
+      "meteor": null
+    },
+    "202": {
+      "bleu1": 0.2222,
+      "rouge": 0.3306,
+      "cider": 0.2295,
+      "meteor": null
+    },
+    "203": {
+      "bleu1": 0.2727,
+      "rouge": 0.2681,
+      "cider": 0.0465,
+      "meteor": null
+    },
+    "204": {
+      "bleu1": 0.3684,
+      "rouge": 0.229,
+      "cider": 0.0729,
+      "meteor": null
+    },
+    "205": {
+      "bleu1": 0.4,
+      "rouge": 0.2618,
+      "cider": 0.3329,
+      "meteor": null
+    },
+    "206": {
+      "bleu1": 0.1538,
+      "rouge": 0.1128,
+      "cider": 0.1515,
+      "meteor": null
+    },
+    "207": {
+      "bleu1": 0.1765,
+      "rouge": 0.2855,
+      "cider": 0.0984,
+      "meteor": null
+    },
+    "208": {
+      "bleu1": 0.2632,
+      "rouge": 0.3356,
+      "cider": 0.0397,
+      "meteor": null
+    },
+    "209": {
+      "bleu1": 0.6667,
+      "rouge": 0.6394,
+      "cider": 1.0827,
+      "meteor": null
+    },
+    "210": {
+      "bleu1": 0.2778,
+      "rouge": 0.2926,
+      "cider": 0.1227,
+      "meteor": null
+    },
+    "211": {
+      "bleu1": 0.2353,
+      "rouge": 0.1802,
+      "cider": 0.0232,
+      "meteor": null
+    },
+    "212": {
+      "bleu1": 0.1667,
+      "rouge": 0.2492,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "213": {
+      "bleu1": 0.2083,
+      "rouge": 0.2346,
+      "cider": 0.0013,
+      "meteor": null
+    },
+    "214": {
+      "bleu1": 0.25,
+      "rouge": 0.2807,
+      "cider": 0.0537,
+      "meteor": null
+    },
+    "215": {
+      "bleu1": 0.375,
+      "rouge": 0.4049,
+      "cider": 0.412,
+      "meteor": null
+    },
+    "216": {
+      "bleu1": 0.2353,
+      "rouge": 0.1802,
+      "cider": 0.0326,
+      "meteor": null
+    },
+    "217": {
+      "bleu1": 0.5455,
+      "rouge": 0.5764,
+      "cider": 0.2828,
+      "meteor": null
+    },
+    "218": {
+      "bleu1": 0.4375,
+      "rouge": 0.4433,
+      "cider": 0.2045,
+      "meteor": null
+    },
+    "219": {
+      "bleu1": 0.2609,
+      "rouge": 0.2827,
+      "cider": 0.0068,
+      "meteor": null
+    },
+    "220": {
+      "bleu1": 0.125,
+      "rouge": 0.1374,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "221": {
+      "bleu1": 0.1176,
+      "rouge": 0.1486,
+      "cider": 0.0516,
+      "meteor": null
+    },
+    "222": {
+      "bleu1": 0.2105,
+      "rouge": 0.1599,
+      "cider": 0.0346,
+      "meteor": null
+    },
+    "223": {
+      "bleu1": 0.5455,
+      "rouge": 0.61,
+      "cider": 1.6072,
+      "meteor": null
+    },
+    "224": {
+      "bleu1": 0.3846,
+      "rouge": 0.4976,
+      "cider": 0.4291,
+      "meteor": null
+    },
+    "225": {
+      "bleu1": 0.2381,
+      "rouge": 0.3592,
+      "cider": 0.0646,
+      "meteor": null
+    },
+    "226": {
+      "bleu1": 0.2174,
+      "rouge": 0.2036,
+      "cider": 0.0148,
+      "meteor": null
+    },
+    "227": {
+      "bleu1": 0.3158,
+      "rouge": 0.2801,
+      "cider": 0.0975,
+      "meteor": null
+    },
+    "228": {
+      "bleu1": 0.2778,
+      "rouge": 0.2259,
+      "cider": 0.024,
+      "meteor": null
+    },
+    "229": {
+      "bleu1": 0.3158,
+      "rouge": 0.3653,
+      "cider": 0.0881,
+      "meteor": null
+    },
+    "230": {
+      "bleu1": 0.5556,
+      "rouge": 0.6025,
+      "cider": 0.9307,
+      "meteor": null
+    },
+    "231": {
+      "bleu1": 0.1765,
+      "rouge": 0.2703,
+      "cider": 0.0944,
+      "meteor": null
+    },
+    "232": {
+      "bleu1": 0.2632,
+      "rouge": 0.3009,
+      "cider": 0.0689,
+      "meteor": null
+    },
+    "233": {
+      "bleu1": 0.2727,
+      "rouge": 0.3727,
+      "cider": 0.1048,
+      "meteor": null
+    },
+    "234": {
+      "bleu1": 0.1818,
+      "rouge": 0.3042,
+      "cider": 0.0077,
+      "meteor": null
+    },
+    "235": {
+      "bleu1": 0.7,
+      "rouge": 0.4861,
+      "cider": 1.401,
+      "meteor": null
+    },
+    "236": {
+      "bleu1": 0.4,
+      "rouge": 0.2961,
+      "cider": 0.0987,
+      "meteor": null
+    },
+    "237": {
+      "bleu1": 0.25,
+      "rouge": 0.3547,
+      "cider": 0.105,
+      "meteor": null
+    },
+    "238": {
+      "bleu1": 0.0769,
+      "rouge": 0.1057,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "239": {
+      "bleu1": 0.125,
+      "rouge": 0.1871,
+      "cider": 0.0233,
+      "meteor": null
+    },
+    "240": {
+      "bleu1": 0.0909,
+      "rouge": 0.1172,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "241": {
+      "bleu1": 0.2609,
+      "rouge": 0.2714,
+      "cider": 0.0196,
+      "meteor": null
+    },
+    "242": {
+      "bleu1": 0.2609,
+      "rouge": 0.2544,
+      "cider": 0.0549,
+      "meteor": null
+    },
+    "243": {
+      "bleu1": 0.2727,
+      "rouge": 0.3472,
+      "cider": 0.3506,
+      "meteor": null
+    },
+    "244": {
+      "bleu1": 0.2941,
+      "rouge": 0.1903,
+      "cider": 0.0544,
+      "meteor": null
+    },
+    "245": {
+      "bleu1": 0.3333,
+      "rouge": 0.3297,
+      "cider": 0.0796,
+      "meteor": null
+    },
+    "246": {
+      "bleu1": 0.3077,
+      "rouge": 0.3383,
+      "cider": 0.2125,
+      "meteor": null
+    },
+    "247": {
+      "bleu1": 0.3846,
+      "rouge": 0.376,
+      "cider": 0.2509,
+      "meteor": null
+    },
+    "248": {
+      "bleu1": 0.1481,
+      "rouge": 0.1422,
+      "cider": 0.0024,
+      "meteor": null
+    },
+    "249": {
+      "bleu1": 0.0909,
+      "rouge": 0.0961,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "250": {
+      "bleu1": 0.1871,
+      "rouge": 0.2064,
+      "cider": 0.0547,
+      "meteor": null
+    },
+    "251": {
+      "bleu1": 0.2778,
+      "rouge": 0.3152,
+      "cider": 0.0727,
+      "meteor": null
+    },
+    "252": {
+      "bleu1": 0.2632,
+      "rouge": 0.2648,
+      "cider": 0.0591,
+      "meteor": null
+    },
+    "253": {
+      "bleu1": 0.2,
+      "rouge": 0.3096,
+      "cider": 0.2077,
+      "meteor": null
+    },
+    "254": {
+      "bleu1": 0.1538,
+      "rouge": 0.199,
+      "cider": 0.066,
+      "meteor": null
+    },
+    "255": {
+      "bleu1": 0.3636,
+      "rouge": 0.463,
+      "cider": 0.9488,
+      "meteor": null
+    },
+    "256": {
+      "bleu1": 0.4118,
+      "rouge": 0.4505,
+      "cider": 0.1216,
+      "meteor": null
+    },
+    "257": {
+      "bleu1": 0.3125,
+      "rouge": 0.2933,
+      "cider": 0.0727,
+      "meteor": null
+    },
+    "258": {
+      "bleu1": 0.2727,
+      "rouge": 0.2485,
+      "cider": 0.0969,
+      "meteor": null
+    },
+    "259": {
+      "bleu1": 0.2667,
+      "rouge": 0.2064,
+      "cider": 0.0935,
+      "meteor": null
+    },
+    "260": {
+      "bleu1": 0.3333,
+      "rouge": 0.2364,
+      "cider": 0.138,
+      "meteor": null
+    },
+    "261": {
+      "bleu1": 0.2381,
+      "rouge": 0.2355,
+      "cider": 0.0151,
+      "meteor": null
+    },
+    "262": {
+      "bleu1": 0.3125,
+      "rouge": 0.3547,
+      "cider": 0.1839,
+      "meteor": null
+    },
+    "263": {
+      "bleu1": 0.2727,
+      "rouge": 0.2912,
+      "cider": 0.0057,
+      "meteor": null
+    },
+    "264": {
+      "bleu1": 0.2105,
+      "rouge": 0.1766,
+      "cider": 0.0086,
+      "meteor": null
+    },
+    "265": {
+      "bleu1": 0.1923,
+      "rouge": 0.2113,
+      "cider": 0.0011,
+      "meteor": null
+    },
+    "266": {
+      "bleu1": 0.1333,
+      "rouge": 0.1745,
+      "cider": 0.1391,
+      "meteor": null
+    },
+    "267": {
+      "bleu1": 0.5,
+      "rouge": 0.3315,
+      "cider": 0.127,
+      "meteor": null
+    },
+    "268": {
+      "bleu1": 0.1935,
+      "rouge": 0.1665,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "269": {
+      "bleu1": 0.28,
+      "rouge": 0.2901,
+      "cider": 0.0026,
+      "meteor": null
+    },
+    "270": {
+      "bleu1": 0.3158,
+      "rouge": 0.3009,
+      "cider": 0.0552,
+      "meteor": null
+    },
+    "271": {
+      "bleu1": 0.1875,
+      "rouge": 0.1605,
+      "cider": 0.0804,
+      "meteor": null
+    },
+    "272": {
+      "bleu1": 0.0556,
+      "rouge": 0.0869,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "273": {
+      "bleu1": 0.2778,
+      "rouge": 0.2364,
+      "cider": 0.1237,
+      "meteor": null
+    },
+    "274": {
+      "bleu1": 0.3077,
+      "rouge": 0.1301,
+      "cider": 0.0525,
+      "meteor": null
+    },
+    "275": {
+      "bleu1": 0.4286,
+      "rouge": 0.3824,
+      "cider": 0.161,
+      "meteor": null
+    },
+    "276": {
+      "bleu1": 0.1429,
+      "rouge": 0.247,
+      "cider": 0.0063,
+      "meteor": null
+    },
+    "277": {
+      "bleu1": 0.1579,
+      "rouge": 0.1527,
+      "cider": 0.0219,
+      "meteor": null
+    },
+    "278": {
+      "bleu1": 0.2727,
+      "rouge": 0.3358,
+      "cider": 0.2434,
+      "meteor": null
+    },
+    "279": {
+      "bleu1": 0.4167,
+      "rouge": 0.5187,
+      "cider": 0.7412,
+      "meteor": null
+    },
+    "280": {
+      "bleu1": 0.3077,
+      "rouge": 0.2255,
+      "cider": 0.145,
+      "meteor": null
+    },
+    "281": {
+      "bleu1": 0.1667,
+      "rouge": 0.2364,
+      "cider": 0.0818,
+      "meteor": null
+    },
+    "282": {
+      "bleu1": 0.6154,
+      "rouge": 0.3383,
+      "cider": 0.2687,
+      "meteor": null
+    },
+    "283": {
+      "bleu1": 0.1333,
+      "rouge": 0.1099,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "284": {
+      "bleu1": 0.375,
+      "rouge": 0.3832,
+      "cider": 0.3878,
+      "meteor": null
+    },
+    "285": {
+      "bleu1": 0.2273,
+      "rouge": 0.2485,
+      "cider": 0.0486,
+      "meteor": null
+    },
+    "286": {
+      "bleu1": 0.0769,
+      "rouge": 0.0704,
+      "cider": 0.0079,
+      "meteor": null
+    },
+    "287": {
+      "bleu1": 0.0714,
+      "rouge": 0.1151,
+      "cider": 0.1017,
+      "meteor": null
+    },
+    "288": {
+      "bleu1": 0.3333,
+      "rouge": 0.3547,
+      "cider": 0.3011,
+      "meteor": null
+    },
+    "289": {
+      "bleu1": 0.4167,
+      "rouge": 0.5525,
+      "cider": 0.4931,
+      "meteor": null
+    },
+    "290": {
+      "bleu1": 0.1765,
+      "rouge": 0.1554,
+      "cider": 0.0215,
+      "meteor": null
+    },
+    "291": {
+      "bleu1": 0.1333,
+      "rouge": 0.1946,
+      "cider": 0.0645,
+      "meteor": null
+    },
+    "292": {
+      "bleu1": 0.25,
+      "rouge": 0.25,
+      "cider": 0.0765,
+      "meteor": null
+    },
+    "293": {
+      "bleu1": 0.0667,
+      "rouge": 0.1032,
+      "cider": 0.0347,
+      "meteor": null
+    },
+    "294": {
+      "bleu1": 0.1667,
+      "rouge": 0.221,
+      "cider": 0.0011,
+      "meteor": null
+    },
+    "295": {
+      "bleu1": 0.1333,
+      "rouge": 0.1099,
+      "cider": 0.0642,
+      "meteor": null
+    },
+    "296": {
+      "bleu1": 0.2,
+      "rouge": 0.2322,
+      "cider": 0.0108,
+      "meteor": null
+    },
+    "297": {
+      "bleu1": 0.25,
+      "rouge": 0.3813,
+      "cider": 0.1217,
+      "meteor": null
+    },
+    "298": {
+      "bleu1": 0.32,
+      "rouge": 0.2004,
+      "cider": 0.0094,
+      "meteor": null
+    },
+    "299": {
+      "bleu1": 0.2667,
+      "rouge": 0.3892,
+      "cider": 0.0785,
+      "meteor": null
+    },
+    "300": {
+      "bleu1": 0.4375,
+      "rouge": 0.3065,
+      "cider": 0.2543,
+      "meteor": null
+    },
+    "301": {
+      "bleu1": 0.2,
+      "rouge": 0.2618,
+      "cider": 0.2367,
+      "meteor": null
+    },
+    "302": {
+      "bleu1": 0.2857,
+      "rouge": 0.3001,
+      "cider": 0.0407,
+      "meteor": null
+    },
+    "303": {
+      "bleu1": 0.1905,
+      "rouge": 0.1325,
+      "cider": 0.0257,
+      "meteor": null
+    },
+    "304": {
+      "bleu1": 0.2727,
+      "rouge": 0.2094,
+      "cider": 0.0267,
+      "meteor": null
+    },
+    "305": {
+      "bleu1": 0.0769,
+      "rouge": 0.0685,
+      "cider": 0.0003,
+      "meteor": null
+    },
+    "306": {
+      "bleu1": 0.1739,
+      "rouge": 0.1957,
+      "cider": 0.0112,
+      "meteor": null
+    },
+    "307": {
+      "bleu1": 0.0909,
+      "rouge": 0.1521,
+      "cider": 0.0022,
+      "meteor": null
+    },
+    "308": {
+      "bleu1": 0.1739,
+      "rouge": 0.1542,
+      "cider": 0.0044,
+      "meteor": null
+    },
+    "309": {
+      "bleu1": 0.4167,
+      "rouge": 0.2542,
+      "cider": 0.1753,
+      "meteor": null
+    },
+    "310": {
+      "bleu1": 0.5,
+      "rouge": 0.4133,
+      "cider": 0.1096,
+      "meteor": null
+    },
+    "311": {
+      "bleu1": 0.1765,
+      "rouge": 0.0952,
+      "cider": 0.0334,
+      "meteor": null
+    },
+    "312": {
+      "bleu1": 0.4211,
+      "rouge": 0.4797,
+      "cider": 0.1322,
+      "meteor": null
+    },
+    "313": {
+      "bleu1": 0.1053,
+      "rouge": 0.1678,
+      "cider": 0.0221,
+      "meteor": null
+    },
+    "314": {
+      "bleu1": 0.3333,
+      "rouge": 0.2364,
+      "cider": 0.0795,
+      "meteor": null
+    },
+    "315": {
+      "bleu1": 0.1481,
+      "rouge": 0.1369,
+      "cider": 0.0014,
+      "meteor": null
+    },
+    "316": {
+      "bleu1": 0.2308,
+      "rouge": 0.2255,
+      "cider": 0.0112,
+      "meteor": null
+    },
+    "317": {
+      "bleu1": 0.4667,
+      "rouge": 0.552,
+      "cider": 0.4889,
+      "meteor": null
+    },
+    "318": {
+      "bleu1": 0.1875,
+      "rouge": 0.2971,
+      "cider": 0.1477,
+      "meteor": null
+    },
+    "319": {
+      "bleu1": 0.3333,
+      "rouge": 0.391,
+      "cider": 0.1186,
+      "meteor": null
+    },
+    "320": {
+      "bleu1": 0.3333,
+      "rouge": 0.248,
+      "cider": 0.0718,
+      "meteor": null
+    },
+    "321": {
+      "bleu1": 0.5,
+      "rouge": 0.2914,
+      "cider": 0.3452,
+      "meteor": null
+    },
+    "322": {
+      "bleu1": 0.1429,
+      "rouge": 0.2355,
+      "cider": 0.0104,
+      "meteor": null
+    },
+    "323": {
+      "bleu1": 0.4167,
+      "rouge": 0.2955,
+      "cider": 0.0247,
+      "meteor": null
+    },
+    "324": {
+      "bleu1": 0.2381,
+      "rouge": 0.255,
+      "cider": 0.0203,
+      "meteor": null
+    },
+    "325": {
+      "bleu1": 0.3957,
+      "rouge": 0.47,
+      "cider": 0.6156,
+      "meteor": null
+    },
+    "326": {
+      "bleu1": 0.1875,
+      "rouge": 0.2971,
+      "cider": 0.1176,
+      "meteor": null
+    },
+    "327": {
+      "bleu1": 0.1111,
+      "rouge": 0.0916,
+      "cider": 0.0041,
+      "meteor": null
+    },
+    "328": {
+      "bleu1": 0.2,
+      "rouge": 0.0973,
+      "cider": 0.0381,
+      "meteor": null
+    },
+    "329": {
+      "bleu1": 0.1905,
+      "rouge": 0.2355,
+      "cider": 0.0029,
+      "meteor": null
+    },
+    "330": {
+      "bleu1": 0.3333,
+      "rouge": 0.4729,
+      "cider": 0.3724,
+      "meteor": null
+    },
+    "331": {
+      "bleu1": 0.4545,
+      "rouge": 0.4969,
+      "cider": 0.4565,
+      "meteor": null
+    },
+    "332": {
+      "bleu1": 0.2667,
+      "rouge": 0.2198,
+      "cider": 0.1026,
+      "meteor": null
+    },
+    "333": {
+      "bleu1": 0.2222,
+      "rouge": 0.1653,
+      "cider": 0.0257,
+      "meteor": null
+    },
+    "334": {
+      "bleu1": 0.25,
+      "rouge": 0.3813,
+      "cider": 0.1775,
+      "meteor": null
+    },
+    "335": {
+      "bleu1": 0.3571,
+      "rouge": 0.2027,
+      "cider": 0.175,
+      "meteor": null
+    },
+    "336": {
+      "bleu1": 0.08,
+      "rouge": 0.1516,
+      "cider": 0.0011,
+      "meteor": null
+    },
+    "337": {
+      "bleu1": 0.1875,
+      "rouge": 0.099,
+      "cider": 0.0195,
+      "meteor": null
+    },
+    "338": {
+      "bleu1": 0.2632,
+      "rouge": 0.2517,
+      "cider": 0.0227,
+      "meteor": null
+    },
+    "339": {
+      "bleu1": 0.1333,
+      "rouge": 0.1946,
+      "cider": 0.0486,
+      "meteor": null
+    },
+    "340": {
+      "bleu1": 0.6364,
+      "rouge": 0.5417,
+      "cider": 1.0517,
+      "meteor": null
+    },
+    "341": {
+      "bleu1": 0.1579,
+      "rouge": 0.1401,
+      "cider": 0.0598,
+      "meteor": null
+    },
+    "342": {
+      "bleu1": 0.3636,
+      "rouge": 0.2792,
+      "cider": 0.0316,
+      "meteor": null
+    },
+    "343": {
+      "bleu1": 0.5,
+      "rouge": 0.4311,
+      "cider": 0.3657,
+      "meteor": null
+    },
+    "344": {
+      "bleu1": 0.16,
+      "rouge": 0.1336,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "345": {
+      "bleu1": 0.3333,
+      "rouge": 0.2618,
+      "cider": 0.1277,
+      "meteor": null
+    },
+    "346": {
+      "bleu1": 0.2308,
+      "rouge": 0.3383,
+      "cider": 0.2353,
+      "meteor": null
+    },
+    "347": {
+      "bleu1": 0.2727,
+      "rouge": 0.2315,
+      "cider": 0.1441,
+      "meteor": null
+    },
+    "348": {
+      "bleu1": 0.4167,
+      "rouge": 0.2933,
+      "cider": 0.376,
+      "meteor": null
+    },
+    "349": {
+      "bleu1": 0.2308,
+      "rouge": 0.175,
+      "cider": 0.0008,
+      "meteor": null
+    },
+    "350": {
+      "bleu1": 0.0541,
+      "rouge": 0.0535,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "351": {
+      "bleu1": 0.3333,
+      "rouge": 0.1946,
+      "cider": 0.1025,
+      "meteor": null
+    },
+    "352": {
+      "bleu1": 0.2222,
+      "rouge": 0.3476,
+      "cider": 0.0495,
+      "meteor": null
+    },
+    "353": {
+      "bleu1": 0.4667,
+      "rouge": 0.2618,
+      "cider": 0.1822,
+      "meteor": null
+    },
+    "354": {
+      "bleu1": 0.1481,
+      "rouge": 0.2632,
+      "cider": 0.0013,
+      "meteor": null
+    },
+    "355": {
+      "bleu1": 0.4706,
+      "rouge": 0.3422,
+      "cider": 0.1743,
+      "meteor": null
+    },
+    "356": {
+      "bleu1": 0.381,
+      "rouge": 0.2155,
+      "cider": 0.0278,
+      "meteor": null
+    },
+    "357": {
+      "bleu1": 0.4615,
+      "rouge": 0.2985,
+      "cider": 0.2904,
+      "meteor": null
+    },
+    "358": {
+      "bleu1": 0.1818,
+      "rouge": 0.2037,
+      "cider": 0.0082,
+      "meteor": null
+    },
+    "359": {
+      "bleu1": 0.4667,
+      "rouge": 0.46,
+      "cider": 0.1762,
+      "meteor": null
+    },
+    "360": {
+      "bleu1": 0.1818,
+      "rouge": 0.2184,
+      "cider": 0.0163,
+      "meteor": null
+    },
+    "361": {
+      "bleu1": 0.1034,
+      "rouge": 0.1296,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "362": {
+      "bleu1": 0.2632,
+      "rouge": 0.2648,
+      "cider": 0.0319,
+      "meteor": null
+    },
+    "363": {
+      "bleu1": 0.2632,
+      "rouge": 0.3054,
+      "cider": 0.1132,
+      "meteor": null
+    },
+    "364": {
+      "bleu1": 0.1429,
+      "rouge": 0.2155,
+      "cider": 0.0626,
+      "meteor": null
+    },
+    "365": {
+      "bleu1": 0.166,
+      "rouge": 0.1521,
+      "cider": 0.0018,
+      "meteor": null
+    },
+    "366": {
+      "bleu1": 0.4286,
+      "rouge": 0.2868,
+      "cider": 0.2703,
+      "meteor": null
+    },
+    "367": {
+      "bleu1": 0.1667,
+      "rouge": 0.2542,
+      "cider": 0.1606,
+      "meteor": null
+    },
+    "368": {
+      "bleu1": 0.2273,
+      "rouge": 0.1671,
+      "cider": 0.0079,
+      "meteor": null
+    },
+    "369": {
+      "bleu1": 0.1875,
+      "rouge": 0.266,
+      "cider": 0.0159,
+      "meteor": null
+    },
+    "370": {
+      "bleu1": 0.1923,
+      "rouge": 0.1353,
+      "cider": 0.0071,
+      "meteor": null
+    },
+    "371": {
+      "bleu1": 0.2,
+      "rouge": 0.2556,
+      "cider": 0.0259,
+      "meteor": null
+    },
+    "372": {
+      "bleu1": 0.6,
+      "rouge": 0.4861,
+      "cider": 0.4758,
+      "meteor": null
+    },
+    "373": {
+      "bleu1": 0.249,
+      "rouge": 0.3472,
+      "cider": 0.0293,
+      "meteor": null
+    },
+    "374": {
+      "bleu1": 0.1875,
+      "rouge": 0.266,
+      "cider": 0.047,
+      "meteor": null
+    },
+    "375": {
+      "bleu1": 0.2759,
+      "rouge": 0.2409,
+      "cider": 0.0016,
+      "meteor": null
+    },
+    "376": {
+      "bleu1": 0.2,
+      "rouge": 0.2064,
+      "cider": 0.0502,
+      "meteor": null
+    },
+    "377": {
+      "bleu1": 0.2778,
+      "rouge": 0.2607,
+      "cider": 0.0255,
+      "meteor": null
+    },
+    "378": {
+      "bleu1": 0.2857,
+      "rouge": 0.304,
+      "cider": 0.3033,
+      "meteor": null
+    },
+    "379": {
+      "bleu1": 0.2308,
+      "rouge": 0.2255,
+      "cider": 0.0689,
+      "meteor": null
+    },
+    "380": {
+      "bleu1": 0.3571,
+      "rouge": 0.1912,
+      "cider": 0.1239,
+      "meteor": null
+    },
+    "381": {
+      "bleu1": 0.2105,
+      "rouge": 0.1766,
+      "cider": 0.0075,
+      "meteor": null
+    },
+    "382": {
+      "bleu1": 0.2,
+      "rouge": 0.284,
+      "cider": 0.0003,
+      "meteor": null
+    },
+    "383": {
+      "bleu1": 0.3158,
+      "rouge": 0.3531,
+      "cider": 0.0656,
+      "meteor": null
+    },
+    "384": {
+      "bleu1": 0.4444,
+      "rouge": 0.3476,
+      "cider": 0.0932,
+      "meteor": null
+    },
+    "385": {
+      "bleu1": 0.25,
+      "rouge": 0.1773,
+      "cider": 0.0772,
+      "meteor": null
+    },
+    "386": {
+      "bleu1": 0.2353,
+      "rouge": 0.1903,
+      "cider": 0.0572,
+      "meteor": null
+    },
+    "387": {
+      "bleu1": 0.2941,
+      "rouge": 0.2567,
+      "cider": 0.0438,
+      "meteor": null
+    },
+    "388": {
+      "bleu1": 0.3636,
+      "rouge": 0.4073,
+      "cider": 0.4029,
+      "meteor": null
+    },
+    "389": {
+      "bleu1": 0.2273,
+      "rouge": 0.2792,
+      "cider": 0.0293,
+      "meteor": null
+    },
+    "390": {
+      "bleu1": 0.1304,
+      "rouge": 0.1542,
+      "cider": 0.0041,
+      "meteor": null
+    },
+    "391": {
+      "bleu1": 0.3529,
+      "rouge": 0.3422,
+      "cider": 0.2523,
+      "meteor": null
+    },
+    "392": {
+      "bleu1": 0.2174,
+      "rouge": 0.3232,
+      "cider": 0.0174,
+      "meteor": null
+    },
+    "393": {
+      "bleu1": 0.7143,
+      "rouge": 0.5865,
+      "cider": 0.987,
+      "meteor": null
+    },
+    "394": {
+      "bleu1": 0.5,
+      "rouge": 0.5236,
+      "cider": 0.8914,
+      "meteor": null
+    },
+    "395": {
+      "bleu1": 0.3333,
+      "rouge": 0.276,
+      "cider": 0.0451,
+      "meteor": null
+    },
+    "396": {
+      "bleu1": 0.3333,
+      "rouge": 0.2558,
+      "cider": 0.288,
+      "meteor": null
+    },
+    "397": {
+      "bleu1": 0.1429,
+      "rouge": 0.2155,
+      "cider": 0.0868,
+      "meteor": null
+    },
+    "398": {
+      "bleu1": 0.5,
+      "rouge": 0.3547,
+      "cider": 0.2168,
+      "meteor": null
+    },
+    "399": {
+      "bleu1": 0.1304,
+      "rouge": 0.0771,
+      "cider": 0.0096,
+      "meteor": null
+    },
+    "400": {
+      "bleu1": 0.15,
+      "rouge": 0.1548,
+      "cider": 0.0109,
+      "meteor": null
+    },
+    "401": {
+      "bleu1": 0.1429,
+      "rouge": 0.1151,
+      "cider": 0.0023,
+      "meteor": null
+    },
+    "402": {
+      "bleu1": 0.2,
+      "rouge": 0.1794,
+      "cider": 0.0185,
+      "meteor": null
+    },
+    "403": {
+      "bleu1": 0.2222,
+      "rouge": 0.1832,
+      "cider": 0.035,
+      "meteor": null
+    },
+    "404": {
+      "bleu1": 0.2632,
+      "rouge": 0.3725,
+      "cider": 0.0254,
+      "meteor": null
+    },
+    "405": {
+      "bleu1": 0.2105,
+      "rouge": 0.1527,
+      "cider": 0.0055,
+      "meteor": null
+    },
+    "406": {
+      "bleu1": 0.1579,
+      "rouge": 0.0839,
+      "cider": 0.0184,
+      "meteor": null
+    },
+    "407": {
+      "bleu1": 0.3333,
+      "rouge": 0.314,
+      "cider": 0.0325,
+      "meteor": null
+    },
+    "408": {
+      "bleu1": 0.2727,
+      "rouge": 0.2389,
+      "cider": 0.0119,
+      "meteor": null
+    },
+    "409": {
+      "bleu1": 0.5,
+      "rouge": 0.391,
+      "cider": 0.2606,
+      "meteor": null
+    },
+    "410": {
+      "bleu1": 0.1875,
+      "rouge": 0.0887,
+      "cider": 0.0159,
+      "meteor": null
+    },
+    "411": {
+      "bleu1": 0.3846,
+      "rouge": 0.376,
+      "cider": 0.2296,
+      "meteor": null
+    },
+    "412": {
+      "bleu1": 0.1,
+      "rouge": 0.1548,
+      "cider": 0.018,
+      "meteor": null
+    },
+    "413": {
+      "bleu1": 0.0909,
+      "rouge": 0.1242,
+      "cider": 0.142,
+      "meteor": null
+    },
+    "414": {
+      "bleu1": 0.3529,
+      "rouge": 0.3604,
+      "cider": 0.1348,
+      "meteor": null
+    },
+    "415": {
+      "bleu1": 0.2857,
+      "rouge": 0.3824,
+      "cider": 0.1972,
+      "meteor": null
+    },
+    "416": {
+      "bleu1": 0.1111,
+      "rouge": 0.0982,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "417": {
+      "bleu1": 0.4545,
+      "rouge": 0.463,
+      "cider": 0.5692,
+      "meteor": null
+    },
+    "418": {
+      "bleu1": 0.3571,
+      "rouge": 0.2715,
+      "cider": 0.1163,
+      "meteor": null
+    },
+    "419": {
+      "bleu1": 0.2353,
+      "rouge": 0.2855,
+      "cider": 0.0464,
+      "meteor": null
+    },
+    "420": {
+      "bleu1": 0.3077,
+      "rouge": 0.2113,
+      "cider": 0.0081,
+      "meteor": null
+    },
+    "421": {
+      "bleu1": 0.3077,
+      "rouge": 0.3172,
+      "cider": 0.2895,
+      "meteor": null
+    },
+    "422": {
+      "bleu1": 0.2105,
+      "rouge": 0.2922,
+      "cider": 0.0296,
+      "meteor": null
+    },
+    "423": {
+      "bleu1": 0.3158,
+      "rouge": 0.2398,
+      "cider": 0.0379,
+      "meteor": null
+    },
+    "424": {
+      "bleu1": 0.125,
+      "rouge": 0.2243,
+      "cider": 0.05,
+      "meteor": null
+    },
+    "425": {
+      "bleu1": 0.1333,
+      "rouge": 0.2064,
+      "cider": 0.0514,
+      "meteor": null
+    },
+    "426": {
+      "bleu1": 0.3,
+      "rouge": 0.3245,
+      "cider": 0.1054,
+      "meteor": null
+    },
+    "427": {
+      "bleu1": 0.375,
+      "rouge": 0.3315,
+      "cider": 0.1046,
+      "meteor": null
+    },
+    "428": {
+      "bleu1": 0.1071,
+      "rouge": 0.1998,
+      "cider": 0.0003,
+      "meteor": null
+    },
+    "429": {
+      "bleu1": 0.2143,
+      "rouge": 0.2027,
+      "cider": 0.0367,
+      "meteor": null
+    },
+    "430": {
+      "bleu1": 0.0556,
+      "rouge": 0.0869,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "431": {
+      "bleu1": 0.2222,
+      "rouge": 0.2748,
+      "cider": 0.0343,
+      "meteor": null
+    },
+    "432": {
+      "bleu1": 0.2857,
+      "rouge": 0.2027,
+      "cider": 0.1639,
+      "meteor": null
+    },
+    "433": {
+      "bleu1": 0.415,
+      "rouge": 0.3727,
+      "cider": 0.1927,
+      "meteor": null
+    },
+    "434": {
+      "bleu1": 0.25,
+      "rouge": 0.2364,
+      "cider": 0.1014,
+      "meteor": null
+    },
+    "435": {
+      "bleu1": 0.2778,
+      "rouge": 0.2748,
+      "cider": 0.0737,
+      "meteor": null
+    },
+    "436": {
+      "bleu1": 0.3,
+      "rouge": 0.3401,
+      "cider": 0.1566,
+      "meteor": null
+    },
+    "437": {
+      "bleu1": 0.3333,
+      "rouge": 0.458,
+      "cider": 0.0912,
+      "meteor": null
+    },
+    "438": {
+      "bleu1": 0.4,
+      "rouge": 0.2618,
+      "cider": 0.1727,
+      "meteor": null
+    },
+    "439": {
+      "bleu1": 0.5,
+      "rouge": 0.2542,
+      "cider": 0.2024,
+      "meteor": null
+    },
+    "440": {
+      "bleu1": 0.2727,
+      "rouge": 0.2485,
+      "cider": 0.2122,
+      "meteor": null
+    },
+    "441": {
+      "bleu1": 0.3333,
+      "rouge": 0.3836,
+      "cider": 0.3612,
+      "meteor": null
+    },
+    "442": {
+      "bleu1": 0.0833,
+      "rouge": 0.0748,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "443": {
+      "bleu1": 0.125,
+      "rouge": 0.1605,
+      "cider": 0.0301,
+      "meteor": null
+    },
+    "444": {
+      "bleu1": 0.2727,
+      "rouge": 0.1456,
+      "cider": 0.0182,
+      "meteor": null
+    },
+    "445": {
+      "bleu1": 0.2778,
+      "rouge": 0.248,
+      "cider": 0.0311,
+      "meteor": null
+    },
+    "446": {
+      "bleu1": 0.4375,
+      "rouge": 0.2528,
+      "cider": 0.0872,
+      "meteor": null
+    },
+    "447": {
+      "bleu1": 0.4118,
+      "rouge": 0.4505,
+      "cider": 0.1829,
+      "meteor": null
+    },
+    "448": {
+      "bleu1": 0.5833,
+      "rouge": 0.442,
+      "cider": 0.4967,
+      "meteor": null
+    },
+    "449": {
+      "bleu1": 0.25,
+      "rouge": 0.3547,
+      "cider": 0.1288,
+      "meteor": null
+    },
+    "450": {
+      "bleu1": 0.4615,
+      "rouge": 0.451,
+      "cider": 0.217,
+      "meteor": null
+    },
+    "451": {
+      "bleu1": 0.25,
+      "rouge": 0.3547,
+      "cider": 0.1402,
+      "meteor": null
+    },
+    "452": {
+      "bleu1": 0.5,
+      "rouge": 0.3645,
+      "cider": 0.4945,
+      "meteor": null
+    },
+    "453": {
+      "bleu1": 0.3077,
+      "rouge": 0.3172,
+      "cider": 0.1326,
+      "meteor": null
+    },
+    "454": {
+      "bleu1": 0.2941,
+      "rouge": 0.2567,
+      "cider": 0.0823,
+      "meteor": null
+    },
+    "455": {
+      "bleu1": 0.3158,
+      "rouge": 0.4383,
+      "cider": 0.0615,
+      "meteor": null
+    },
+    "456": {
+      "bleu1": 0.0357,
+      "rouge": 0.0723,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "457": {
+      "bleu1": 0.25,
+      "rouge": 0.3742,
+      "cider": 0.0963,
+      "meteor": null
+    },
+    "458": {
+      "bleu1": 0.2,
+      "rouge": 0.2128,
+      "cider": 0.022,
+      "meteor": null
+    },
+    "459": {
+      "bleu1": 0.0833,
+      "rouge": 0.1271,
+      "cider": 0.0128,
+      "meteor": null
+    },
+    "460": {
+      "bleu1": 0.1995,
+      "rouge": 0.2056,
+      "cider": 0.037,
+      "meteor": null
+    },
+    "461": {
+      "bleu1": 0.5625,
+      "rouge": 0.4909,
+      "cider": 0.3725,
+      "meteor": null
+    },
+    "462": {
+      "bleu1": 0.4167,
+      "rouge": 0.391,
+      "cider": 0.5774,
+      "meteor": null
+    },
+    "463": {
+      "bleu1": 0.2105,
+      "rouge": 0.1599,
+      "cider": 0.0135,
+      "meteor": null
+    },
+    "464": {
+      "bleu1": 0.3333,
+      "rouge": 0.3104,
+      "cider": 0.1366,
+      "meteor": null
+    },
+    "465": {
+      "bleu1": 0.2857,
+      "rouge": 0.2868,
+      "cider": 0.1507,
+      "meteor": null
+    },
+    "466": {
+      "bleu1": 0.5455,
+      "rouge": 0.5092,
+      "cider": 0.7471,
+      "meteor": null
+    },
+    "467": {
+      "bleu1": 0.3333,
+      "rouge": 0.3752,
+      "cider": 0.0308,
+      "meteor": null
+    },
+    "468": {
+      "bleu1": 0.1176,
+      "rouge": 0.0952,
+      "cider": 0.0242,
+      "meteor": null
+    },
+    "469": {
+      "bleu1": 0.375,
+      "rouge": 0.3961,
+      "cider": 0.1668,
+      "meteor": null
+    },
+    "470": {
+      "bleu1": 0.3182,
+      "rouge": 0.349,
+      "cider": 0.0345,
+      "meteor": null
+    },
+    "471": {
+      "bleu1": 0.1765,
+      "rouge": 0.1903,
+      "cider": 0.0111,
+      "meteor": null
+    },
+    "472": {
+      "bleu1": 0.2273,
+      "rouge": 0.2961,
+      "cider": 0.0208,
+      "meteor": null
+    },
+    "473": {
+      "bleu1": 0.4667,
+      "rouge": 0.3096,
+      "cider": 0.1447,
+      "meteor": null
+    },
+    "474": {
+      "bleu1": 0.6,
+      "rouge": 0.5669,
+      "cider": 1.2281,
+      "meteor": null
+    },
+    "475": {
+      "bleu1": 0.4118,
+      "rouge": 0.3422,
+      "cider": 0.1731,
+      "meteor": null
+    },
+    "476": {
+      "bleu1": 0.4615,
+      "rouge": 0.451,
+      "cider": 0.198,
+      "meteor": null
+    },
+    "477": {
+      "bleu1": 0.5,
+      "rouge": 0.663,
+      "cider": 0.9773,
+      "meteor": null
+    },
+    "478": {
+      "bleu1": 0.3,
+      "rouge": 0.2434,
+      "cider": 0.0633,
+      "meteor": null
+    },
+    "479": {
+      "bleu1": 0.0833,
+      "rouge": 0.1564,
+      "cider": 0.0015,
+      "meteor": null
+    },
+    "480": {
+      "bleu1": 0.4545,
+      "rouge": 0.6212,
+      "cider": 0.5259,
+      "meteor": null
+    },
+    "481": {
+      "bleu1": 0.2667,
+      "rouge": 0.2064,
+      "cider": 0.0666,
+      "meteor": null
+    },
+    "482": {
+      "bleu1": 0.3571,
+      "rouge": 0.2027,
+      "cider": 0.1939,
+      "meteor": null
+    },
+    "483": {
+      "bleu1": 0.2174,
+      "rouge": 0.2314,
+      "cider": 0.0071,
+      "meteor": null
+    },
+    "484": {
+      "bleu1": 0.1765,
+      "rouge": 0.1554,
+      "cider": 0.0448,
+      "meteor": null
+    },
+    "485": {
+      "bleu1": 0.3333,
+      "rouge": 0.2542,
+      "cider": 0.2847,
+      "meteor": null
+    },
+    "486": {
+      "bleu1": 0.3529,
+      "rouge": 0.3604,
+      "cider": 0.1811,
+      "meteor": null
+    },
+    "487": {
+      "bleu1": 0.3125,
+      "rouge": 0.1981,
+      "cider": 0.0607,
+      "meteor": null
+    },
+    "488": {
+      "bleu1": 0.4545,
+      "rouge": 0.4073,
+      "cider": 0.3966,
+      "meteor": null
+    },
+    "489": {
+      "bleu1": 0.4,
+      "rouge": 0.5236,
+      "cider": 0.3855,
+      "meteor": null
+    },
+    "490": {
+      "bleu1": 0.2143,
+      "rouge": 0.2155,
+      "cider": 0.0123,
+      "meteor": null
+    },
+    "491": {
+      "bleu1": 0.4667,
+      "rouge": 0.415,
+      "cider": 0.3142,
+      "meteor": null
+    },
+    "492": {
+      "bleu1": 0.0625,
+      "rouge": 0.0936,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "493": {
+      "bleu1": 0.2174,
+      "rouge": 0.2036,
+      "cider": 0.0041,
+      "meteor": null
+    },
+    "494": {
+      "bleu1": 0.5455,
+      "rouge": 0.4969,
+      "cider": 0.3927,
+      "meteor": null
+    },
+    "495": {
+      "bleu1": 0.2692,
+      "rouge": 0.2333,
+      "cider": 0.0065,
+      "meteor": null
+    },
+    "496": {
+      "bleu1": 0.2143,
+      "rouge": 0.1151,
+      "cider": 0.0216,
+      "meteor": null
+    },
+    "497": {
+      "bleu1": 0.0909,
+      "rouge": 0.1456,
+      "cider": 0.001,
+      "meteor": null
+    },
+    "498": {
+      "bleu1": 0.3333,
+      "rouge": 0.3096,
+      "cider": 0.1613,
+      "meteor": null
+    },
+    "499": {
+      "bleu1": 0.2941,
+      "rouge": 0.2703,
+      "cider": 0.0422,
+      "meteor": null
+    },
+    "500": {
+      "bleu1": 0.1875,
+      "rouge": 0.1773,
+      "cider": 0.0384,
+      "meteor": null
+    },
+    "501": {
+      "bleu1": 0.3125,
+      "rouge": 0.2807,
+      "cider": 0.1363,
+      "meteor": null
+    },
+    "502": {
+      "bleu1": 0.15,
+      "rouge": 0.1481,
+      "cider": 0.0123,
+      "meteor": null
+    },
+    "503": {
+      "bleu1": 0.3529,
+      "rouge": 0.2135,
+      "cider": 0.158,
+      "meteor": null
+    },
+    "504": {
+      "bleu1": 0.1176,
+      "rouge": 0.1107,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "505": {
+      "bleu1": 0.1053,
+      "rouge": 0.0883,
+      "cider": 0.0168,
+      "meteor": null
+    },
+    "506": {
+      "bleu1": 0.3571,
+      "rouge": 0.4311,
+      "cider": 0.2776,
+      "meteor": null
+    },
+    "507": {
+      "bleu1": 0.3158,
+      "rouge": 0.2648,
+      "cider": 0.0634,
+      "meteor": null
+    },
+    "508": {
+      "bleu1": 0.4348,
+      "rouge": 0.4241,
+      "cider": 0.0307,
+      "meteor": null
+    },
+    "509": {
+      "bleu1": 0.6,
+      "rouge": 0.4861,
+      "cider": 0.995,
+      "meteor": null
+    },
+    "510": {
+      "bleu1": 0.6154,
+      "rouge": 0.4976,
+      "cider": 0.6341,
+      "meteor": null
+    },
+    "511": {
+      "bleu1": 0.4545,
+      "rouge": 0.4334,
+      "cider": 0.2079,
+      "meteor": null
+    },
+    "512": {
+      "bleu1": 0.1739,
+      "rouge": 0.1957,
+      "cider": 0.0045,
+      "meteor": null
+    },
+    "513": {
+      "bleu1": 0.1818,
+      "rouge": 0.1593,
+      "cider": 0.0043,
+      "meteor": null
+    },
+    "514": {
+      "bleu1": 0.3158,
+      "rouge": 0.3054,
+      "cider": 0.0744,
+      "meteor": null
+    },
+    "515": {
+      "bleu1": 0.2941,
+      "rouge": 0.2972,
+      "cider": 0.1393,
+      "meteor": null
+    },
+    "516": {
+      "bleu1": 0.2222,
+      "rouge": 0.1653,
+      "cider": 0.0387,
+      "meteor": null
+    },
+    "517": {
+      "bleu1": 0.0667,
+      "rouge": 0.0791,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "518": {
+      "bleu1": 0.2727,
+      "rouge": 0.1921,
+      "cider": 0.0017,
+      "meteor": null
+    },
+    "519": {
+      "bleu1": 0.5,
+      "rouge": 0.3211,
+      "cider": 0.2778,
+      "meteor": null
+    },
+    "520": {
+      "bleu1": 0.2308,
+      "rouge": 0.3172,
+      "cider": 0.0955,
+      "meteor": null
+    },
+    "521": {
+      "bleu1": 0.1053,
+      "rouge": 0.0883,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "522": {
+      "bleu1": 0.2667,
+      "rouge": 0.184,
+      "cider": 0.0669,
+      "meteor": null
+    },
+    "523": {
+      "bleu1": 0.2609,
+      "rouge": 0.2314,
+      "cider": 0.0108,
+      "meteor": null
+    },
+    "524": {
+      "bleu1": 0.1333,
+      "rouge": 0.184,
+      "cider": 0.0352,
+      "meteor": null
+    },
+    "525": {
+      "bleu1": 0.4118,
+      "rouge": 0.4505,
+      "cider": 0.1207,
+      "meteor": null
+    },
+    "526": {
+      "bleu1": 0.2632,
+      "rouge": 0.229,
+      "cider": 0.0383,
+      "meteor": null
+    },
+    "527": {
+      "bleu1": 0.2,
+      "rouge": 0.2556,
+      "cider": 0.0103,
+      "meteor": null
+    },
+    "528": {
+      "bleu1": 0.25,
+      "rouge": 0.2664,
+      "cider": 0.0008,
+      "meteor": null
+    },
+    "529": {
+      "bleu1": 0.5,
+      "rouge": 0.3961,
+      "cider": 0.1435,
+      "meteor": null
+    },
+    "530": {
+      "bleu1": 0.3077,
+      "rouge": 0.2255,
+      "cider": 0.0774,
+      "meteor": null
+    },
+    "531": {
+      "bleu1": 0.1111,
+      "rouge": 0.1653,
+      "cider": 0.0207,
+      "meteor": null
+    },
+    "532": {
+      "bleu1": 0.4286,
+      "rouge": 0.4053,
+      "cider": 0.2978,
+      "meteor": null
+    },
+    "533": {
+      "bleu1": 0.2632,
+      "rouge": 0.1678,
+      "cider": 0.0421,
+      "meteor": null
+    },
+    "534": {
+      "bleu1": 0.2273,
+      "rouge": 0.1593,
+      "cider": 0.0017,
+      "meteor": null
+    },
+    "535": {
+      "bleu1": 0.2857,
+      "rouge": 0.3453,
+      "cider": 0.2379,
+      "meteor": null
+    },
+    "536": {
+      "bleu1": 0.2667,
+      "rouge": 0.2618,
+      "cider": 0.0525,
+      "meteor": null
+    },
+    "537": {
+      "bleu1": 0.2273,
+      "rouge": 0.1758,
+      "cider": 0.011,
+      "meteor": null
+    },
+    "538": {
+      "bleu1": 0.4706,
+      "rouge": 0.4207,
+      "cider": 0.1092,
+      "meteor": null
+    },
+    "539": {
+      "bleu1": 0.3333,
+      "rouge": 0.3096,
+      "cider": 0.191,
+      "meteor": null
+    },
+    "540": {
+      "bleu1": 0.1429,
+      "rouge": 0.1151,
+      "cider": 0.0436,
+      "meteor": null
+    },
+    "541": {
+      "bleu1": 0.0625,
+      "rouge": 0.0887,
+      "cider": 0.014,
+      "meteor": null
+    },
+    "542": {
+      "bleu1": 0.1667,
+      "rouge": 0.1848,
+      "cider": 0.0599,
+      "meteor": null
+    },
+    "543": {
+      "bleu1": 0.3333,
+      "rouge": 0.2364,
+      "cider": 0.0447,
+      "meteor": null
+    },
+    "544": {
+      "bleu1": 0.25,
+      "rouge": 0.221,
+      "cider": 0.0871,
+      "meteor": null
+    },
+    "545": {
+      "bleu1": 0.3571,
+      "rouge": 0.4311,
+      "cider": 0.3724,
+      "meteor": null
+    },
+    "546": {
+      "bleu1": 0.2778,
+      "rouge": 0.2607,
+      "cider": 0.0798,
+      "meteor": null
+    },
+    "547": {
+      "bleu1": 0.2941,
+      "rouge": 0.3669,
+      "cider": 0.126,
+      "meteor": null
+    },
+    "548": {
+      "bleu1": 0.1481,
+      "rouge": 0.207,
+      "cider": 0.0084,
+      "meteor": null
+    },
+    "549": {
+      "bleu1": 0.3571,
+      "rouge": 0.2514,
+      "cider": 0.1713,
+      "meteor": null
+    },
+    "550": {
+      "bleu1": 0.4,
+      "rouge": 0.276,
+      "cider": 0.1551,
+      "meteor": null
+    },
+    "551": {
+      "bleu1": 0.2222,
+      "rouge": 0.2766,
+      "cider": 0.2562,
+      "meteor": null
+    },
+    "552": {
+      "bleu1": 0.05,
+      "rouge": 0.0774,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "553": {
+      "bleu1": 0.0769,
+      "rouge": 0.1208,
+      "cider": 0.0133,
+      "meteor": null
+    },
+    "554": {
+      "bleu1": 0.4667,
+      "rouge": 0.368,
+      "cider": 0.1815,
+      "meteor": null
+    },
+    "555": {
+      "bleu1": 0.1818,
+      "rouge": 0.1921,
+      "cider": 0.0013,
+      "meteor": null
+    },
+    "556": {
+      "bleu1": 0.3636,
+      "rouge": 0.3106,
+      "cider": 0.0409,
+      "meteor": null
+    },
+    "557": {
+      "bleu1": 0.05,
+      "rouge": 0.0811,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "558": {
+      "bleu1": 0.1667,
+      "rouge": 0.0968,
+      "cider": 0.0075,
+      "meteor": null
+    },
+    "559": {
+      "bleu1": 0.2143,
+      "rouge": 0.156,
+      "cider": 0.0803,
+      "meteor": null
+    },
+    "560": {
+      "bleu1": 0.5,
+      "rouge": 0.5187,
+      "cider": 0.9047,
+      "meteor": null
+    },
+    "561": {
+      "bleu1": 0.3636,
+      "rouge": 0.2167,
+      "cider": 0.152,
+      "meteor": null
+    },
+    "562": {
+      "bleu1": 0.2083,
+      "rouge": 0.1495,
+      "cider": 0.001,
+      "meteor": null
+    },
+    "563": {
+      "bleu1": 0.4,
+      "rouge": 0.368,
+      "cider": 0.3758,
+      "meteor": null
+    },
+    "564": {
+      "bleu1": 0.3125,
+      "rouge": 0.2807,
+      "cider": 0.0501,
+      "meteor": null
+    },
+    "565": {
+      "bleu1": 0.2222,
+      "rouge": 0.1738,
+      "cider": 0.0155,
+      "meteor": null
+    },
+    "566": {
+      "bleu1": 0.2273,
+      "rouge": 0.2637,
+      "cider": 0.003,
+      "meteor": null
+    },
+    "567": {
+      "bleu1": 0.3333,
+      "rouge": 0.3547,
+      "cider": 0.174,
+      "meteor": null
+    },
+    "568": {
+      "bleu1": 0.2308,
+      "rouge": 0.3172,
+      "cider": 0.2278,
+      "meteor": null
+    },
+    "569": {
+      "bleu1": 0.1364,
+      "rouge": 0.129,
+      "cider": 0.0125,
+      "meteor": null
+    },
+    "570": {
+      "bleu1": 0.1111,
+      "rouge": 0.1832,
+      "cider": 0.0209,
+      "meteor": null
+    },
+    "571": {
+      "bleu1": 0.25,
+      "rouge": 0.2528,
+      "cider": 0.1022,
+      "meteor": null
+    },
+    "572": {
+      "bleu1": 0.4,
+      "rouge": 0.4396,
+      "cider": 0.4332,
+      "meteor": null
+    },
+    "573": {
+      "bleu1": 0.2727,
+      "rouge": 0.4022,
+      "cider": 0.414,
+      "meteor": null
+    },
+    "574": {
+      "bleu1": 0.1538,
+      "rouge": 0.2416,
+      "cider": 0.0924,
+      "meteor": null
+    },
+    "575": {
+      "bleu1": 0.4167,
+      "rouge": 0.4729,
+      "cider": 0.4702,
+      "meteor": null
+    },
+    "576": {
+      "bleu1": 0.1842,
+      "rouge": 0.2411,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "577": {
+      "bleu1": 0.2778,
+      "rouge": 0.248,
+      "cider": 0.0469,
+      "meteor": null
+    },
+    "578": {
+      "bleu1": 0.375,
+      "rouge": 0.2807,
+      "cider": 0.1042,
+      "meteor": null
+    },
+    "579": {
+      "bleu1": 0.1111,
+      "rouge": 0.0869,
+      "cider": 0.0339,
+      "meteor": null
+    },
+    "580": {
+      "bleu1": 0.2,
+      "rouge": 0.2434,
+      "cider": 0.0278,
+      "meteor": null
+    },
+    "581": {
+      "bleu1": 0.25,
+      "rouge": 0.3155,
+      "cider": 0.1392,
+      "meteor": null
+    },
+    "582": {
+      "bleu1": 0.3636,
+      "rouge": 0.325,
+      "cider": 0.1898,
+      "meteor": null
+    },
+    "583": {
+      "bleu1": 0.4444,
+      "rouge": 0.5115,
+      "cider": 0.3288,
+      "meteor": null
+    },
+    "584": {
+      "bleu1": 0.1429,
+      "rouge": 0.2027,
+      "cider": 0.0323,
+      "meteor": null
+    },
+    "585": {
+      "bleu1": 0.1176,
+      "rouge": 0.0952,
+      "cider": 0.0061,
+      "meteor": null
+    },
+    "586": {
+      "bleu1": 0.2,
+      "rouge": 0.2673,
+      "cider": 0.0029,
+      "meteor": null
+    },
+    "587": {
+      "bleu1": 0.2222,
+      "rouge": 0.248,
+      "cider": 0.0268,
+      "meteor": null
+    },
+    "588": {
+      "bleu1": 0.25,
+      "rouge": 0.2528,
+      "cider": 0.0806,
+      "meteor": null
+    },
+    "589": {
+      "bleu1": 0.7273,
+      "rouge": 0.611,
+      "cider": 1.2323,
+      "meteor": null
+    },
+    "590": {
+      "bleu1": 0.2,
+      "rouge": 0.2673,
+      "cider": 0.0029,
+      "meteor": null
+    },
+    "591": {
+      "bleu1": 0.5294,
+      "rouge": 0.3807,
+      "cider": 0.2166,
+      "meteor": null
+    },
+    "592": {
+      "bleu1": 0.1667,
+      "rouge": 0.2075,
+      "cider": 0.0978,
+      "meteor": null
+    },
+    "593": {
+      "bleu1": 0.6364,
+      "rouge": 0.5417,
+      "cider": 0.711,
+      "meteor": null
+    },
+    "594": {
+      "bleu1": 0.3571,
+      "rouge": 0.3824,
+      "cider": 0.2549,
+      "meteor": null
+    },
+    "595": {
+      "bleu1": 0.125,
+      "rouge": 0.1271,
+      "cider": 0.001,
+      "meteor": null
+    },
+    "596": {
+      "bleu1": 0.5,
+      "rouge": 0.3547,
+      "cider": 0.2364,
+      "meteor": null
+    },
+    "597": {
+      "bleu1": 0.15,
+      "rouge": 0.2128,
+      "cider": 0.0067,
+      "meteor": null
+    },
+    "598": {
+      "bleu1": 0.2222,
+      "rouge": 0.2364,
+      "cider": 0.0584,
+      "meteor": null
+    },
+    "599": {
+      "bleu1": 0.3846,
+      "rouge": 0.4976,
+      "cider": 0.2476,
+      "meteor": null
+    },
+    "600": {
+      "bleu1": 0.4615,
+      "rouge": 0.47,
+      "cider": 0.4211,
+      "meteor": null
+    },
+    "601": {
+      "bleu1": 0.4167,
+      "rouge": 0.391,
+      "cider": 0.1775,
+      "meteor": null
+    },
+    "602": {
+      "bleu1": 0.5714,
+      "rouge": 0.5304,
+      "cider": 0.3685,
+      "meteor": null
+    },
+    "603": {
+      "bleu1": 0.2222,
+      "rouge": 0.1738,
+      "cider": 0.0543,
+      "meteor": null
+    },
+    "604": {
+      "bleu1": 0.2308,
+      "rouge": 0.2114,
+      "cider": 0.1036,
+      "meteor": null
+    },
+    "605": {
+      "bleu1": 0.1818,
+      "rouge": 0.1396,
+      "cider": 0.0021,
+      "meteor": null
+    },
+    "606": {
+      "bleu1": 0.2222,
+      "rouge": 0.2378,
+      "cider": 0.0394,
+      "meteor": null
+    },
+    "607": {
+      "bleu1": 0.4286,
+      "rouge": 0.608,
+      "cider": 0.4485,
+      "meteor": null
+    },
+    "608": {
+      "bleu1": 0.2727,
+      "rouge": 0.3055,
+      "cider": 0.1983,
+      "meteor": null
+    },
+    "609": {
+      "bleu1": 0.2222,
+      "rouge": 0.1576,
+      "cider": 0.0195,
+      "meteor": null
+    },
+    "610": {
+      "bleu1": 0.1579,
+      "rouge": 0.1863,
+      "cider": 0.0048,
+      "meteor": null
+    },
+    "611": {
+      "bleu1": 0.32,
+      "rouge": 0.2571,
+      "cider": 0.0084,
+      "meteor": null
+    },
+    "612": {
+      "bleu1": 0.4,
+      "rouge": 0.5236,
+      "cider": 0.4746,
+      "meteor": null
+    },
+    "613": {
+      "bleu1": 0.1333,
+      "rouge": 0.1263,
+      "cider": 0.0449,
+      "meteor": null
+    },
+    "614": {
+      "bleu1": 0.25,
+      "rouge": 0.1481,
+      "cider": 0.016,
+      "meteor": null
+    },
+    "615": {
+      "bleu1": 0.4167,
+      "rouge": 0.3112,
+      "cider": 0.2497,
+      "meteor": null
+    },
+    "616": {
+      "bleu1": 0.1429,
+      "rouge": 0.1912,
+      "cider": 0.0904,
+      "meteor": null
+    },
+    "617": {
+      "bleu1": 0.5714,
+      "rouge": 0.3824,
+      "cider": 0.3761,
+      "meteor": null
+    },
+    "618": {
+      "bleu1": 0.5,
+      "rouge": 0.4861,
+      "cider": 0.7295,
+      "meteor": null
+    },
+    "619": {
+      "bleu1": 0.3043,
+      "rouge": 0.2827,
+      "cider": 0.025,
+      "meteor": null
+    },
+    "620": {
+      "bleu1": 0.4286,
+      "rouge": 0.4053,
+      "cider": 0.3324,
+      "meteor": null
+    },
+    "621": {
+      "bleu1": 0.75,
+      "rouge": 0.4621,
+      "cider": 0.9077,
+      "meteor": null
+    },
+    "622": {
+      "bleu1": 0.2,
+      "rouge": 0.1745,
+      "cider": 0.0522,
+      "meteor": null
+    },
+    "623": {
+      "bleu1": 0.2941,
+      "rouge": 0.3422,
+      "cider": 0.0716,
+      "meteor": null
+    },
+    "624": {
+      "bleu1": 0.4912,
+      "rouge": 0.5131,
+      "cider": 0.4802,
+      "meteor": null
+    },
+    "625": {
+      "bleu1": 0.5625,
+      "rouge": 0.4013,
+      "cider": 0.2739,
+      "meteor": null
+    },
+    "626": {
+      "bleu1": 0.3333,
+      "rouge": 0.3315,
+      "cider": 0.1732,
+      "meteor": null
+    },
+    "627": {
+      "bleu1": 0.2,
+      "rouge": 0.2268,
+      "cider": 0.0752,
+      "meteor": null
+    },
+    "628": {
+      "bleu1": 0.2857,
+      "rouge": 0.2952,
+      "cider": 0.0783,
+      "meteor": null
+    },
+    "629": {
+      "bleu1": 0.3158,
+      "rouge": 0.3054,
+      "cider": 0.0207,
+      "meteor": null
+    },
+    "630": {
+      "bleu1": 0.5385,
+      "rouge": 0.3383,
+      "cider": 0.1792,
+      "meteor": null
+    },
+    "631": {
+      "bleu1": 0.4274,
+      "rouge": 0.4229,
+      "cider": 0.3261,
+      "meteor": null
+    },
+    "632": {
+      "bleu1": 0.2857,
+      "rouge": 0.2868,
+      "cider": 0.122,
+      "meteor": null
+    },
+    "633": {
+      "bleu1": 0.25,
+      "rouge": 0.1533,
+      "cider": 0.0748,
+      "meteor": null
+    },
+    "634": {
+      "bleu1": 0.1538,
+      "rouge": 0.1128,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "635": {
+      "bleu1": 0.3333,
+      "rouge": 0.4959,
+      "cider": 0.569,
+      "meteor": null
+    },
+    "636": {
+      "bleu1": 0.087,
+      "rouge": 0.1414,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "637": {
+      "bleu1": 0.1765,
+      "rouge": 0.2017,
+      "cider": 0.04,
+      "meteor": null
+    },
+    "638": {
+      "bleu1": 0.5455,
+      "rouge": 0.3727,
+      "cider": 0.4118,
+      "meteor": null
+    },
+    "639": {
+      "bleu1": 0.4615,
+      "rouge": 0.3076,
+      "cider": 0.2613,
+      "meteor": null
+    },
+    "640": {
+      "bleu1": 0.3333,
+      "rouge": 0.1955,
+      "cider": 0.1107,
+      "meteor": null
+    },
+    "641": {
+      "bleu1": 0.3182,
+      "rouge": 0.4368,
+      "cider": 0.0254,
+      "meteor": null
+    },
+    "642": {
+      "bleu1": 0.2,
+      "rouge": 0.1099,
+      "cider": 0.0086,
+      "meteor": null
+    },
+    "643": {
+      "bleu1": 0.2727,
+      "rouge": 0.1671,
+      "cider": 0.015,
+      "meteor": null
+    },
+    "644": {
+      "bleu1": 0.4118,
+      "rouge": 0.3206,
+      "cider": 0.1115,
+      "meteor": null
+    },
+    "645": {
+      "bleu1": 0.2105,
+      "rouge": 0.1678,
+      "cider": 0.0076,
+      "meteor": null
+    },
+    "646": {
+      "bleu1": 0.375,
+      "rouge": 0.266,
+      "cider": 0.1976,
+      "meteor": null
+    },
+    "647": {
+      "bleu1": 0.2174,
+      "rouge": 0.2121,
+      "cider": 0.0263,
+      "meteor": null
+    },
+    "648": {
+      "bleu1": 0.3333,
+      "rouge": 0.2618,
+      "cider": 0.1236,
+      "meteor": null
+    },
+    "649": {
+      "bleu1": 0.2143,
+      "rouge": 0.2155,
+      "cider": 0.0774,
+      "meteor": null
+    },
+    "650": {
+      "bleu1": 0.375,
+      "rouge": 0.4013,
+      "cider": 0.3237,
+      "meteor": null
+    },
+    "651": {
+      "bleu1": 0.6,
+      "rouge": 0.6329,
+      "cider": 0.8417,
+      "meteor": null
+    },
+    "652": {
+      "bleu1": 0.5556,
+      "rouge": 0.5247,
+      "cider": 1.1539,
+      "meteor": null
+    },
+    "653": {
+      "bleu1": 0.5455,
+      "rouge": 0.4334,
+      "cider": 0.2972,
+      "meteor": null
+    },
+    "654": {
+      "bleu1": 0.3333,
+      "rouge": 0.2378,
+      "cider": 0.2697,
+      "meteor": null
+    },
+    "655": {
+      "bleu1": 0.2308,
+      "rouge": 0.2255,
+      "cider": 0.0054,
+      "meteor": null
+    },
+    "656": {
+      "bleu1": 0.25,
+      "rouge": 0.2322,
+      "cider": 0.0249,
+      "meteor": null
+    },
+    "657": {
+      "bleu1": 0.3333,
+      "rouge": 0.2558,
+      "cider": 0.5824,
+      "meteor": null
+    },
+    "658": {
+      "bleu1": 0.4,
+      "rouge": 0.2919,
+      "cider": 0.2417,
+      "meteor": null
+    },
+    "659": {
+      "bleu1": 0.25,
+      "rouge": 0.2556,
+      "cider": 0.0907,
+      "meteor": null
+    },
+    "660": {
+      "bleu1": 0.5385,
+      "rouge": 0.5639,
+      "cider": 0.8528,
+      "meteor": null
+    },
+    "661": {
+      "bleu1": 0.2941,
+      "rouge": 0.2855,
+      "cider": 0.0723,
+      "meteor": null
+    },
+    "662": {
+      "bleu1": 0.4,
+      "rouge": 0.3245,
+      "cider": 0.0743,
+      "meteor": null
+    },
+    "663": {
+      "bleu1": 0.1111,
+      "rouge": 0.1576,
+      "cider": 0.0455,
+      "meteor": null
+    },
+    "664": {
+      "bleu1": 0.3571,
+      "rouge": 0.3824,
+      "cider": 0.3115,
+      "meteor": null
+    },
+    "665": {
+      "bleu1": 0.3571,
+      "rouge": 0.4053,
+      "cider": 0.1617,
+      "meteor": null
+    },
+    "666": {
+      "bleu1": 0.1667,
+      "rouge": 0.1442,
+      "cider": 0.0371,
+      "meteor": null
+    },
+    "667": {
+      "bleu1": 0.5385,
+      "rouge": 0.4229,
+      "cider": 0.4691,
+      "meteor": null
+    },
+    "668": {
+      "bleu1": 0.1905,
+      "rouge": 0.1646,
+      "cider": 0.0126,
+      "meteor": null
+    },
+    "669": {
+      "bleu1": 0.3889,
+      "rouge": 0.3476,
+      "cider": 0.0552,
+      "meteor": null
+    },
+    "670": {
+      "bleu1": 0.3333,
+      "rouge": 0.3096,
+      "cider": 0.1381,
+      "meteor": null
+    },
+    "671": {
+      "bleu1": 0.5,
+      "rouge": 0.375,
+      "cider": 0.3902,
+      "meteor": null
+    },
+    "672": {
+      "bleu1": 0.3333,
+      "rouge": 0.2364,
+      "cider": 0.1256,
+      "meteor": null
+    },
+    "673": {
+      "bleu1": 0.3571,
+      "rouge": 0.304,
+      "cider": 0.1837,
+      "meteor": null
+    },
+    "674": {
+      "bleu1": 0.5333,
+      "rouge": 0.3956,
+      "cider": 0.3089,
+      "meteor": null
+    },
+    "675": {
+      "bleu1": 0.8571,
+      "rouge": 0.6873,
+      "cider": 1.4707,
+      "meteor": null
+    },
+    "676": {
+      "bleu1": 0.1333,
+      "rouge": 0.1794,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "677": {
+      "bleu1": 0.1304,
+      "rouge": 0.1496,
+      "cider": 0.0136,
+      "meteor": null
+    },
+    "678": {
+      "bleu1": 0.3158,
+      "rouge": 0.3198,
+      "cider": 0.0743,
+      "meteor": null
+    },
+    "679": {
+      "bleu1": 0.25,
+      "rouge": 0.3315,
+      "cider": 0.1981,
+      "meteor": null
+    },
+    "680": {
+      "bleu1": 0.1875,
+      "rouge": 0.2408,
+      "cider": 0.0603,
+      "meteor": null
+    },
+    "681": {
+      "bleu1": 0.1852,
+      "rouge": 0.1738,
+      "cider": 0.0004,
+      "meteor": null
+    },
+    "682": {
+      "bleu1": 0.4444,
+      "rouge": 0.4756,
+      "cider": 0.9909,
+      "meteor": null
+    },
+    "683": {
+      "bleu1": 0.2778,
+      "rouge": 0.2748,
+      "cider": 0.0401,
+      "meteor": null
+    },
+    "684": {
+      "bleu1": 0.2353,
+      "rouge": 0.2567,
+      "cider": 0.0353,
+      "meteor": null
+    },
+    "685": {
+      "bleu1": 0.4375,
+      "rouge": 0.2699,
+      "cider": 0.0856,
+      "meteor": null
+    },
+    "686": {
+      "bleu1": 0.2727,
+      "rouge": 0.2485,
+      "cider": 0.0873,
+      "meteor": null
+    },
+    "687": {
+      "bleu1": 0.2353,
+      "rouge": 0.2567,
+      "cider": 0.0984,
+      "meteor": null
+    },
+    "688": {
+      "bleu1": 0.125,
+      "rouge": 0.099,
+      "cider": 0.0003,
+      "meteor": null
+    },
+    "689": {
+      "bleu1": 0.4167,
+      "rouge": 0.3547,
+      "cider": 0.4805,
+      "meteor": null
+    },
+    "690": {
+      "bleu1": 0.1875,
+      "rouge": 0.1981,
+      "cider": 0.11,
+      "meteor": null
+    },
+    "691": {
+      "bleu1": 0.0833,
+      "rouge": 0.1374,
+      "cider": 0.0155,
+      "meteor": null
+    },
+    "692": {
+      "bleu1": 0.4375,
+      "rouge": 0.4433,
+      "cider": 0.2492,
+      "meteor": null
+    },
+    "693": {
+      "bleu1": 0.2778,
+      "rouge": 0.2905,
+      "cider": 0.0661,
+      "meteor": null
+    },
+    "694": {
+      "bleu1": 0.3846,
+      "rouge": 0.3691,
+      "cider": 0.2656,
+      "meteor": null
+    },
+    "695": {
+      "bleu1": 0.2857,
+      "rouge": 0.4053,
+      "cider": 0.2327,
+      "meteor": null
+    },
+    "696": {
+      "bleu1": 0.1667,
+      "rouge": 0.2075,
+      "cider": 0.0458,
+      "meteor": null
+    },
+    "697": {
+      "bleu1": 0.4545,
+      "rouge": 0.5417,
+      "cider": 0.3022,
+      "meteor": null
+    },
+    "698": {
+      "bleu1": 0.332,
+      "rouge": 0.3451,
+      "cider": 0.3487,
+      "meteor": null
+    },
+    "699": {
+      "bleu1": 0.2632,
+      "rouge": 0.3725,
+      "cider": 0.091,
+      "meteor": null
+    },
+    "700": {
+      "bleu1": 0.1786,
+      "rouge": 0.1282,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "701": {
+      "bleu1": 0.415,
+      "rouge": 0.3472,
+      "cider": 0.3402,
+      "meteor": null
+    },
+    "702": {
+      "bleu1": 0.3,
+      "rouge": 0.2322,
+      "cider": 0.0279,
+      "meteor": null
+    },
+    "703": {
+      "bleu1": 0.1111,
+      "rouge": 0.1267,
+      "cider": 0.0026,
+      "meteor": null
+    },
+    "704": {
+      "bleu1": 0.3462,
+      "rouge": 0.2505,
+      "cider": 0.0044,
+      "meteor": null
+    },
+    "705": {
+      "bleu1": 0.4615,
+      "rouge": 0.3562,
+      "cider": 0.3281,
+      "meteor": null
+    },
+    "706": {
+      "bleu1": 0.2857,
+      "rouge": 0.3824,
+      "cider": 0.3894,
+      "meteor": null
+    },
+    "707": {
+      "bleu1": 0.3571,
+      "rouge": 0.2868,
+      "cider": 0.1789,
+      "meteor": null
+    },
+    "708": {
+      "bleu1": 0.5189,
+      "rouge": 0.3675,
+      "cider": 0.2625,
+      "meteor": null
+    },
+    "709": {
+      "bleu1": 0.3333,
+      "rouge": 0.5083,
+      "cider": 0.8302,
+      "meteor": null
+    },
+    "710": {
+      "bleu1": 0.2105,
+      "rouge": 0.2101,
+      "cider": 0.023,
+      "meteor": null
+    },
+    "711": {
+      "bleu1": 0.0714,
+      "rouge": 0.0956,
+      "cider": 0.0371,
+      "meteor": null
+    },
+    "712": {
+      "bleu1": 0.2222,
+      "rouge": 0.3306,
+      "cider": 0.2831,
+      "meteor": null
+    },
+    "713": {
+      "bleu1": 0.2174,
+      "rouge": 0.2423,
+      "cider": 0.0189,
+      "meteor": null
+    },
+    "714": {
+      "bleu1": 0.2381,
+      "rouge": 0.2874,
+      "cider": 0.0448,
+      "meteor": null
+    },
+    "715": {
+      "bleu1": 0.2941,
+      "rouge": 0.2855,
+      "cider": 0.0623,
+      "meteor": null
+    },
+    "716": {
+      "bleu1": 0.2,
+      "rouge": 0.2064,
+      "cider": 0.1968,
+      "meteor": null
+    },
+    "717": {
+      "bleu1": 0.2609,
+      "rouge": 0.1357,
+      "cider": 0.0058,
+      "meteor": null
+    },
+    "718": {
+      "bleu1": 0.1429,
+      "rouge": 0.0865,
+      "cider": 0.0021,
+      "meteor": null
+    },
+    "719": {
+      "bleu1": 0.5556,
+      "rouge": 0.5115,
+      "cider": 0.2811,
+      "meteor": null
+    },
+    "720": {
+      "bleu1": 0.4,
+      "rouge": 0.3096,
+      "cider": 0.2241,
+      "meteor": null
+    },
+    "721": {
+      "bleu1": 0.2105,
+      "rouge": 0.0839,
+      "cider": 0.0356,
+      "meteor": null
+    },
+    "722": {
+      "bleu1": 0.2667,
+      "rouge": 0.276,
+      "cider": 0.1413,
+      "meteor": null
+    },
+    "723": {
+      "bleu1": 0.2667,
+      "rouge": 0.2919,
+      "cider": 0.0904,
+      "meteor": null
+    },
+    "724": {
+      "bleu1": 0.3571,
+      "rouge": 0.304,
+      "cider": 0.1927,
+      "meteor": null
+    },
+    "725": {
+      "bleu1": 0.28,
+      "rouge": 0.3478,
+      "cider": 0.0055,
+      "meteor": null
+    },
+    "726": {
+      "bleu1": 0.3043,
+      "rouge": 0.3688,
+      "cider": 0.0475,
+      "meteor": null
+    },
+    "727": {
+      "bleu1": 0.2667,
+      "rouge": 0.1946,
+      "cider": 0.04,
+      "meteor": null
+    },
+    "728": {
+      "bleu1": 0.1696,
+      "rouge": 0.1612,
+      "cider": 0.1201,
+      "meteor": null
+    },
+    "729": {
+      "bleu1": 0.2,
+      "rouge": 0.1099,
+      "cider": 0.0408,
+      "meteor": null
+    },
+    "730": {
+      "bleu1": 0.4167,
+      "rouge": 0.3315,
+      "cider": 0.5126,
+      "meteor": null
+    },
+    "731": {
+      "bleu1": 0.6,
+      "rouge": 0.3188,
+      "cider": 0.6346,
+      "meteor": null
+    },
+    "732": {
+      "bleu1": 0.25,
+      "rouge": 0.2408,
+      "cider": 0.0941,
+      "meteor": null
+    },
+    "733": {
+      "bleu1": 0.4444,
+      "rouge": 0.3012,
+      "cider": 0.3167,
+      "meteor": null
+    },
+    "734": {
+      "bleu1": 0.3,
+      "rouge": 0.2556,
+      "cider": 0.0271,
+      "meteor": null
+    },
+    "735": {
+      "bleu1": 0.1818,
+      "rouge": 0.2315,
+      "cider": 0.7407,
+      "meteor": null
+    },
+    "736": {
+      "bleu1": 0.6364,
+      "rouge": 0.5787,
+      "cider": 1.0517,
+      "meteor": null
+    },
+    "737": {
+      "bleu1": 0.3,
+      "rouge": 0.2221,
+      "cider": 0.0555,
+      "meteor": null
+    },
+    "738": {
+      "bleu1": 0.1579,
+      "rouge": 0.1678,
+      "cider": 0.008,
+      "meteor": null
+    },
+    "739": {
+      "bleu1": 0.15,
+      "rouge": 0.1481,
+      "cider": 0.0049,
+      "meteor": null
+    },
+    "740": {
+      "bleu1": 0.25,
+      "rouge": 0.1374,
+      "cider": 0.0385,
+      "meteor": null
+    },
+    "741": {
+      "bleu1": 0.4545,
+      "rouge": 0.4969,
+      "cider": 1.0393,
+      "meteor": null
+    },
+    "742": {
+      "bleu1": 0.1,
+      "rouge": 0.0897,
+      "cider": 0.0027,
+      "meteor": null
+    },
+    "743": {
+      "bleu1": 0.1667,
+      "rouge": 0.1432,
+      "cider": 0.0009,
+      "meteor": null
+    },
+    "744": {
+      "bleu1": 0.1667,
+      "rouge": 0.1848,
+      "cider": 0.0735,
+      "meteor": null
+    },
+    "745": {
+      "bleu1": 0.0,
+      "rouge": 0.0,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "746": {
+      "bleu1": 0.2778,
+      "rouge": 0.1738,
+      "cider": 0.0873,
+      "meteor": null
+    },
+    "747": {
+      "bleu1": 0.2857,
+      "rouge": 0.247,
+      "cider": 0.0392,
+      "meteor": null
+    },
+    "748": {
+      "bleu1": 0.3529,
+      "rouge": 0.2855,
+      "cider": 0.1043,
+      "meteor": null
+    },
+    "749": {
+      "bleu1": 0.5385,
+      "rouge": 0.5126,
+      "cider": 0.6783,
+      "meteor": null
+    },
+    "750": {
+      "bleu1": 0.4286,
+      "rouge": 0.2715,
+      "cider": 0.1078,
+      "meteor": null
+    },
+    "751": {
+      "bleu1": 0.25,
+      "rouge": 0.1685,
+      "cider": 0.0214,
+      "meteor": null
+    },
+    "752": {
+      "bleu1": 0.0769,
+      "rouge": 0.1128,
+      "cider": 0.0106,
+      "meteor": null
+    },
+    "753": {
+      "bleu1": 0.3333,
+      "rouge": 0.2766,
+      "cider": 0.2544,
+      "meteor": null
+    },
+    "754": {
+      "bleu1": 0.3333,
+      "rouge": 0.184,
+      "cider": 0.1403,
+      "meteor": null
+    },
+    "755": {
+      "bleu1": 0.3077,
+      "rouge": 0.2255,
+      "cider": 0.2485,
+      "meteor": null
+    },
+    "756": {
+      "bleu1": 0.1579,
+      "rouge": 0.1766,
+      "cider": 0.0469,
+      "meteor": null
+    },
+    "757": {
+      "bleu1": 0.4545,
+      "rouge": 0.3727,
+      "cider": 0.2451,
+      "meteor": null
+    },
+    "758": {
+      "bleu1": 0.25,
+      "rouge": 0.2103,
+      "cider": 0.055,
+      "meteor": null
+    },
+    "759": {
+      "bleu1": 0.4,
+      "rouge": 0.4251,
+      "cider": 1.2014,
+      "meteor": null
+    },
+    "760": {
+      "bleu1": 0.375,
+      "rouge": 0.2971,
+      "cider": 0.1755,
+      "meteor": null
+    },
+    "761": {
+      "bleu1": 0.1579,
+      "rouge": 0.0883,
+      "cider": 0.019,
+      "meteor": null
+    },
+    "762": {
+      "bleu1": 0.25,
+      "rouge": 0.3547,
+      "cider": 0.1928,
+      "meteor": null
+    },
+    "763": {
+      "bleu1": 0.4,
+      "rouge": 0.3927,
+      "cider": 0.4513,
+      "meteor": null
+    },
+    "764": {
+      "bleu1": 0.5833,
+      "rouge": 0.3697,
+      "cider": 0.3753,
+      "meteor": null
+    },
+    "765": {
+      "bleu1": 0.3571,
+      "rouge": 0.5389,
+      "cider": 0.2812,
+      "meteor": null
+    },
+    "766": {
+      "bleu1": 0.25,
+      "rouge": 0.2364,
+      "cider": 0.135,
+      "meteor": null
+    },
+    "767": {
+      "bleu1": 0.375,
+      "rouge": 0.1773,
+      "cider": 0.1899,
+      "meteor": null
+    },
+    "768": {
+      "bleu1": 0.3077,
+      "rouge": 0.398,
+      "cider": 0.1071,
+      "meteor": null
+    },
+    "769": {
+      "bleu1": 0.2143,
+      "rouge": 0.2155,
+      "cider": 0.1026,
+      "meteor": null
+    },
+    "770": {
+      "bleu1": 0.2222,
+      "rouge": 0.1937,
+      "cider": 0.0339,
+      "meteor": null
+    },
+    "771": {
+      "bleu1": 0.1667,
+      "rouge": 0.2148,
+      "cider": 0.0048,
+      "meteor": null
+    },
+    "772": {
+      "bleu1": 0.4,
+      "rouge": 0.4129,
+      "cider": 0.256,
+      "meteor": null
+    },
+    "773": {
+      "bleu1": 0.375,
+      "rouge": 0.3961,
+      "cider": 0.1899,
+      "meteor": null
+    },
+    "774": {
+      "bleu1": 0.2727,
+      "rouge": 0.2912,
+      "cider": 0.356,
+      "meteor": null
+    },
+    "775": {
+      "bleu1": 0.3333,
+      "rouge": 0.415,
+      "cider": 0.2734,
+      "meteor": null
+    },
+    "776": {
+      "bleu1": 0.3684,
+      "rouge": 0.3997,
+      "cider": 0.061,
+      "meteor": null
+    },
+    "777": {
+      "bleu1": 0.2778,
+      "rouge": 0.1832,
+      "cider": 0.0374,
+      "meteor": null
+    },
+    "778": {
+      "bleu1": 0.4615,
+      "rouge": 0.4229,
+      "cider": 0.2529,
+      "meteor": null
+    },
+    "779": {
+      "bleu1": 0.3571,
+      "rouge": 0.5066,
+      "cider": 0.2225,
+      "meteor": null
+    },
+    "780": {
+      "bleu1": 0.2222,
+      "rouge": 0.2748,
+      "cider": 0.0137,
+      "meteor": null
+    },
+    "781": {
+      "bleu1": 0.4655,
+      "rouge": 0.4781,
+      "cider": 0.7055,
+      "meteor": null
+    },
+    "782": {
+      "bleu1": 0.3,
+      "rouge": 0.3519,
+      "cider": 0.5072,
+      "meteor": null
+    },
+    "783": {
+      "bleu1": 0.2105,
+      "rouge": 0.1599,
+      "cider": 0.0155,
+      "meteor": null
+    },
+    "784": {
+      "bleu1": 0.3333,
+      "rouge": 0.1946,
+      "cider": 0.1434,
+      "meteor": null
+    },
+    "785": {
+      "bleu1": 0.0417,
+      "rouge": 0.0748,
+      "cider": 0.0015,
+      "meteor": null
+    },
+    "786": {
+      "bleu1": 0.1667,
+      "rouge": 0.221,
+      "cider": 0.1303,
+      "meteor": null
+    },
+    "787": {
+      "bleu1": 0.2667,
+      "rouge": 0.3297,
+      "cider": 0.1002,
+      "meteor": null
+    },
+    "788": {
+      "bleu1": 0.0909,
+      "rouge": 0.1593,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "789": {
+      "bleu1": 0.2,
+      "rouge": 0.3096,
+      "cider": 0.0772,
+      "meteor": null
+    },
+    "790": {
+      "bleu1": 0.2381,
+      "rouge": 0.2251,
+      "cider": 0.017,
+      "meteor": null
+    },
+    "791": {
+      "bleu1": 0.1,
+      "rouge": 0.1419,
+      "cider": 0.0231,
+      "meteor": null
+    },
+    "792": {
+      "bleu1": 0.1739,
+      "rouge": 0.192,
+      "cider": 0.025,
+      "meteor": null
+    },
+    "793": {
+      "bleu1": 0.3333,
+      "rouge": 0.3547,
+      "cider": 0.1197,
+      "meteor": null
+    },
+    "794": {
+      "bleu1": 0.2778,
+      "rouge": 0.1832,
+      "cider": 0.0637,
+      "meteor": null
+    },
+    "795": {
+      "bleu1": 0.2857,
+      "rouge": 0.2757,
+      "cider": 0.0751,
+      "meteor": null
+    },
+    "796": {
+      "bleu1": 0.2222,
+      "rouge": 0.1832,
+      "cider": 0.0072,
+      "meteor": null
+    },
+    "797": {
+      "bleu1": 0.4375,
+      "rouge": 0.3547,
+      "cider": 0.1894,
+      "meteor": null
+    },
+    "798": {
+      "bleu1": 0.1,
+      "rouge": 0.1218,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "799": {
+      "bleu1": 0.1053,
+      "rouge": 0.1863,
+      "cider": 0.01,
+      "meteor": null
+    },
+    "800": {
+      "bleu1": 0.5,
+      "rouge": 0.3547,
+      "cider": 0.4634,
+      "meteor": null
+    },
+    "801": {
+      "bleu1": 0.2917,
+      "rouge": 0.245,
+      "cider": 0.0132,
+      "meteor": null
+    },
+    "802": {
+      "bleu1": 0.1538,
+      "rouge": 0.2255,
+      "cider": 0.0943,
+      "meteor": null
+    },
+    "803": {
+      "bleu1": 0.0476,
+      "rouge": 0.0912,
+      "cider": 0.0018,
+      "meteor": null
+    },
+    "804": {
+      "bleu1": 0.3,
+      "rouge": 0.3645,
+      "cider": 0.6267,
+      "meteor": null
+    },
+    "805": {
+      "bleu1": 0.5,
+      "rouge": 0.2933,
+      "cider": 0.318,
+      "meteor": null
+    },
+    "806": {
+      "bleu1": 0.0769,
+      "rouge": 0.1208,
+      "cider": 0.0008,
+      "meteor": null
+    },
+    "807": {
+      "bleu1": 0.3636,
+      "rouge": 0.2894,
+      "cider": 0.065,
+      "meteor": null
+    },
+    "808": {
+      "bleu1": 0.3125,
+      "rouge": 0.2971,
+      "cider": 0.0925,
+      "meteor": null
+    },
+    "809": {
+      "bleu1": 0.2667,
+      "rouge": 0.368,
+      "cider": 0.1968,
+      "meteor": null
+    },
+    "810": {
+      "bleu1": 0.4,
+      "rouge": 0.368,
+      "cider": 0.2003,
+      "meteor": null
+    },
+    "811": {
+      "bleu1": 0.3182,
+      "rouge": 0.2912,
+      "cider": 0.0229,
+      "meteor": null
+    },
+    "812": {
+      "bleu1": 0.1892,
+      "rouge": 0.1954,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "813": {
+      "bleu1": 0.25,
+      "rouge": 0.135,
+      "cider": 0.0903,
+      "meteor": null
+    },
+    "814": {
+      "bleu1": 0.3529,
+      "rouge": 0.2567,
+      "cider": 0.0496,
+      "meteor": null
+    },
+    "815": {
+      "bleu1": 0.2,
+      "rouge": 0.1946,
+      "cider": 0.0245,
+      "meteor": null
+    },
+    "816": {
+      "bleu1": 0.3333,
+      "rouge": 0.2933,
+      "cider": 0.1899,
+      "meteor": null
+    },
+    "817": {
+      "bleu1": 0.1765,
+      "rouge": 0.1903,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "818": {
+      "bleu1": 0.1053,
+      "rouge": 0.1766,
+      "cider": 0.013,
+      "meteor": null
+    },
+    "819": {
+      "bleu1": 0.1429,
+      "rouge": 0.1235,
+      "cider": 0.0271,
+      "meteor": null
+    },
+    "820": {
+      "bleu1": 0.25,
+      "rouge": 0.2807,
+      "cider": 0.1178,
+      "meteor": null
+    },
+    "821": {
+      "bleu1": 0.3571,
+      "rouge": 0.1912,
+      "cider": 0.1474,
+      "meteor": null
+    },
+    "822": {
+      "bleu1": 0.2222,
+      "rouge": 0.1506,
+      "cider": 0.2563,
+      "meteor": null
+    },
+    "823": {
+      "bleu1": 0.2143,
+      "rouge": 0.1078,
+      "cider": 0.0204,
+      "meteor": null
+    },
+    "824": {
+      "bleu1": 0.1875,
+      "rouge": 0.1052,
+      "cider": 0.0384,
+      "meteor": null
+    },
+    "825": {
+      "bleu1": 0.1,
+      "rouge": 0.1548,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "826": {
+      "bleu1": 0.4667,
+      "rouge": 0.4864,
+      "cider": 0.2949,
+      "meteor": null
+    },
+    "827": {
+      "bleu1": 0.3333,
+      "rouge": 0.3001,
+      "cider": 0.0544,
+      "meteor": null
+    },
+    "828": {
+      "bleu1": 0.1538,
+      "rouge": 0.2255,
+      "cider": 0.0998,
+      "meteor": null
+    },
+    "829": {
+      "bleu1": 0.4286,
+      "rouge": 0.468,
+      "cider": 0.5215,
+      "meteor": null
+    },
+    "830": {
+      "bleu1": 0.5385,
+      "rouge": 0.4229,
+      "cider": 0.4712,
+      "meteor": null
+    },
+    "831": {
+      "bleu1": 0.4667,
+      "rouge": 0.276,
+      "cider": 0.1246,
+      "meteor": null
+    },
+    "832": {
+      "bleu1": 0.4986,
+      "rouge": 0.398,
+      "cider": 0.3105,
+      "meteor": null
+    },
+    "833": {
+      "bleu1": 0.3889,
+      "rouge": 0.1832,
+      "cider": 0.1049,
+      "meteor": null
+    },
+    "834": {
+      "bleu1": 0.3333,
+      "rouge": 0.2618,
+      "cider": 0.0755,
+      "meteor": null
+    },
+    "835": {
+      "bleu1": 0.3077,
+      "rouge": 0.2985,
+      "cider": 0.219,
+      "meteor": null
+    },
+    "836": {
+      "bleu1": 0.5714,
+      "rouge": 0.312,
+      "cider": 0.6523,
+      "meteor": null
+    },
+    "837": {
+      "bleu1": 0.2222,
+      "rouge": 0.1738,
+      "cider": 0.0129,
+      "meteor": null
+    },
+    "838": {
+      "bleu1": 0.25,
+      "rouge": 0.2408,
+      "cider": 0.0569,
+      "meteor": null
+    },
+    "839": {
+      "bleu1": 0.2333,
+      "rouge": 0.2938,
+      "cider": 0.0004,
+      "meteor": null
+    },
+    "840": {
+      "bleu1": 0.3077,
+      "rouge": 0.2985,
+      "cider": 0.124,
+      "meteor": null
+    },
+    "841": {
+      "bleu1": 0.4545,
+      "rouge": 0.4334,
+      "cider": 0.4055,
+      "meteor": null
+    },
+    "842": {
+      "bleu1": 0.2941,
+      "rouge": 0.1802,
+      "cider": 0.1055,
+      "meteor": null
+    },
+    "843": {
+      "bleu1": 0.1935,
+      "rouge": 0.1665,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "844": {
+      "bleu1": 0.35,
+      "rouge": 0.2377,
+      "cider": 0.0725,
+      "meteor": null
+    },
+    "845": {
+      "bleu1": 0.1379,
+      "rouge": 0.1249,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "846": {
+      "bleu1": 0.25,
+      "rouge": 0.2971,
+      "cider": 0.0589,
+      "meteor": null
+    },
+    "847": {
+      "bleu1": 0.2222,
+      "rouge": 0.1506,
+      "cider": 0.034,
+      "meteor": null
+    },
+    "848": {
+      "bleu1": 0.25,
+      "rouge": 0.2103,
+      "cider": 0.0977,
+      "meteor": null
+    },
+    "849": {
+      "bleu1": 0.0714,
+      "rouge": 0.1078,
+      "cider": 0.0304,
+      "meteor": null
+    },
+    "850": {
+      "bleu1": 0.0667,
+      "rouge": 0.0973,
+      "cider": 0.0021,
+      "meteor": null
+    },
+    "851": {
+      "bleu1": 0.2727,
+      "rouge": 0.2315,
+      "cider": 0.1756,
+      "meteor": null
+    },
+    "852": {
+      "bleu1": 0.2353,
+      "rouge": 0.1554,
+      "cider": 0.0283,
+      "meteor": null
+    },
+    "853": {
+      "bleu1": 0.3529,
+      "rouge": 0.3604,
+      "cider": 0.1139,
+      "meteor": null
+    },
+    "854": {
+      "bleu1": 0.0909,
+      "rouge": 0.1456,
+      "cider": 0.1068,
+      "meteor": null
+    },
+    "855": {
+      "bleu1": 0.0417,
+      "rouge": 0.0748,
+      "cider": 0.0143,
+      "meteor": null
+    },
+    "856": {
+      "bleu1": 0.1818,
+      "rouge": 0.3042,
+      "cider": 0.0558,
+      "meteor": null
+    },
+    "857": {
+      "bleu1": 0.2857,
+      "rouge": 0.2155,
+      "cider": 0.034,
+      "meteor": null
+    },
+    "858": {
+      "bleu1": 0.2667,
+      "rouge": 0.2198,
+      "cider": 0.1311,
+      "meteor": null
+    },
+    "859": {
+      "bleu1": 0.35,
+      "rouge": 0.2221,
+      "cider": 0.0529,
+      "meteor": null
+    },
+    "860": {
+      "bleu1": 0.125,
+      "rouge": 0.1685,
+      "cider": 0.0171,
+      "meteor": null
+    },
+    "861": {
+      "bleu1": 0.2941,
+      "rouge": 0.2855,
+      "cider": 0.1502,
+      "meteor": null
+    },
+    "862": {
+      "bleu1": 0.375,
+      "rouge": 0.2299,
+      "cider": 0.0974,
+      "meteor": null
+    },
+    "863": {
+      "bleu1": 0.2381,
+      "rouge": 0.2251,
+      "cider": 0.0128,
+      "meteor": null
+    },
+    "864": {
+      "bleu1": 0.0476,
+      "rouge": 0.0785,
+      "cider": 0.0019,
+      "meteor": null
+    },
+    "865": {
+      "bleu1": 0.4,
+      "rouge": 0.5403,
+      "cider": 0.2636,
+      "meteor": null
+    },
+    "866": {
+      "bleu1": 0.2778,
+      "rouge": 0.3664,
+      "cider": 0.0841,
+      "meteor": null
+    },
+    "867": {
+      "bleu1": 0.1579,
+      "rouge": 0.1766,
+      "cider": 0.0101,
+      "meteor": null
+    },
+    "868": {
+      "bleu1": 0.3333,
+      "rouge": 0.3547,
+      "cider": 0.3448,
+      "meteor": null
+    },
+    "869": {
+      "bleu1": 0.1765,
+      "rouge": 0.2017,
+      "cider": 0.027,
+      "meteor": null
+    },
+    "870": {
+      "bleu1": 0.2222,
+      "rouge": 0.2534,
+      "cider": 0.0024,
+      "meteor": null
+    },
+    "871": {
+      "bleu1": 0.2273,
+      "rouge": 0.1671,
+      "cider": 0.0117,
+      "meteor": null
+    },
+    "872": {
+      "bleu1": 0.0,
+      "rouge": 0.0,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "873": {
+      "bleu1": 0.0833,
+      "rouge": 0.0748,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "874": {
+      "bleu1": 0.1739,
+      "rouge": 0.261,
+      "cider": 0.0088,
+      "meteor": null
+    },
+    "875": {
+      "bleu1": 0.25,
+      "rouge": 0.2641,
+      "cider": 0.0158,
+      "meteor": null
+    },
+    "876": {
+      "bleu1": 0.15,
+      "rouge": 0.1894,
+      "cider": 0.0138,
+      "meteor": null
+    },
+    "877": {
+      "bleu1": 0.4167,
+      "rouge": 0.3547,
+      "cider": 0.1243,
+      "meteor": null
+    },
+    "878": {
+      "bleu1": 0.24,
+      "rouge": 0.1451,
+      "cider": 0.0016,
+      "meteor": null
+    },
+    "879": {
+      "bleu1": 0.4167,
+      "rouge": 0.2748,
+      "cider": 0.2293,
+      "meteor": null
+    },
+    "880": {
+      "bleu1": 0.0833,
+      "rouge": 0.1374,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "881": {
+      "bleu1": 0.5,
+      "rouge": 0.4729,
+      "cider": 0.1627,
+      "meteor": null
+    },
+    "882": {
+      "bleu1": 0.1176,
+      "rouge": 0.1711,
+      "cider": 0.0212,
+      "meteor": null
+    },
+    "883": {
+      "bleu1": 0.4615,
+      "rouge": 0.4229,
+      "cider": 0.5764,
+      "meteor": null
+    },
+    "884": {
+      "bleu1": 0.2143,
+      "rouge": 0.1922,
+      "cider": 0.0003,
+      "meteor": null
+    },
+    "885": {
+      "bleu1": 0.2258,
+      "rouge": 0.1148,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "886": {
+      "bleu1": 0.5625,
+      "rouge": 0.4678,
+      "cider": 0.158,
+      "meteor": null
+    },
+    "887": {
+      "bleu1": 0.3333,
+      "rouge": 0.415,
+      "cider": 0.2401,
+      "meteor": null
+    },
+    "888": {
+      "bleu1": 0.3077,
+      "rouge": 0.2416,
+      "cider": 0.011,
+      "meteor": null
+    },
+    "889": {
+      "bleu1": 0.3125,
+      "rouge": 0.3547,
+      "cider": 0.141,
+      "meteor": null
+    },
+    "890": {
+      "bleu1": 0.1667,
+      "rouge": 0.2148,
+      "cider": 0.002,
+      "meteor": null
+    },
+    "891": {
+      "bleu1": 0.4444,
+      "rouge": 0.2766,
+      "cider": 0.1732,
+      "meteor": null
+    },
+    "892": {
+      "bleu1": 0.2632,
+      "rouge": 0.3356,
+      "cider": 0.0394,
+      "meteor": null
+    },
+    "893": {
+      "bleu1": 0.1111,
+      "rouge": 0.214,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "894": {
+      "bleu1": 0.25,
+      "rouge": 0.1622,
+      "cider": 0.0204,
+      "meteor": null
+    },
+    "895": {
+      "bleu1": 0.1739,
+      "rouge": 0.1475,
+      "cider": 0.0051,
+      "meteor": null
+    },
+    "896": {
+      "bleu1": 0.1875,
+      "rouge": 0.266,
+      "cider": 0.0638,
+      "meteor": null
+    },
+    "897": {
+      "bleu1": 0.1765,
+      "rouge": 0.1903,
+      "cider": 0.0067,
+      "meteor": null
+    },
+    "898": {
+      "bleu1": 0.25,
+      "rouge": 0.1981,
+      "cider": 0.049,
+      "meteor": null
+    },
+    "899": {
+      "bleu1": 0.25,
+      "rouge": 0.2807,
+      "cider": 0.3536,
+      "meteor": null
+    },
+    "900": {
+      "bleu1": 0.1333,
+      "rouge": 0.1946,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "901": {
+      "bleu1": 0.4167,
+      "rouge": 0.415,
+      "cider": 0.3309,
+      "meteor": null
+    },
+    "902": {
+      "bleu1": 0.3889,
+      "rouge": 0.3567,
+      "cider": 0.2275,
+      "meteor": null
+    },
+    "903": {
+      "bleu1": 0.1333,
+      "rouge": 0.092,
+      "cider": 0.0011,
+      "meteor": null
+    },
+    "904": {
+      "bleu1": 0.5,
+      "rouge": 0.442,
+      "cider": 0.4692,
+      "meteor": null
+    },
+    "905": {
+      "bleu1": 0.1429,
+      "rouge": 0.0956,
+      "cider": 0.0122,
+      "meteor": null
+    },
+    "906": {
+      "bleu1": 0.4167,
+      "rouge": 0.3315,
+      "cider": 0.2246,
+      "meteor": null
+    },
+    "907": {
+      "bleu1": 0.46,
+      "rouge": 0.3697,
+      "cider": 0.3297,
+      "meteor": null
+    },
+    "908": {
+      "bleu1": 0.1333,
+      "rouge": 0.2064,
+      "cider": 0.0653,
+      "meteor": null
+    },
+    "909": {
+      "bleu1": 0.4286,
+      "rouge": 0.3824,
+      "cider": 0.5443,
+      "meteor": null
+    },
+    "910": {
+      "bleu1": 0.25,
+      "rouge": 0.2364,
+      "cider": 0.1291,
+      "meteor": null
+    },
+    "911": {
+      "bleu1": 0.75,
+      "rouge": 0.6748,
+      "cider": 0.882,
+      "meteor": null
+    },
+    "912": {
+      "bleu1": 0.0899,
+      "rouge": 0.0883,
+      "cider": 0.0084,
+      "meteor": null
+    },
+    "913": {
+      "bleu1": 0.4091,
+      "rouge": 0.3224,
+      "cider": 0.0425,
+      "meteor": null
+    },
+    "914": {
+      "bleu1": 0.2609,
+      "rouge": 0.2121,
+      "cider": 0.0177,
+      "meteor": null
+    },
+    "915": {
+      "bleu1": 0.2143,
+      "rouge": 0.1718,
+      "cider": 0.0153,
+      "meteor": null
+    },
+    "916": {
+      "bleu1": 0.0952,
+      "rouge": 0.0865,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "917": {
+      "bleu1": 0.125,
+      "rouge": 0.1871,
+      "cider": 0.0124,
+      "meteor": null
+    },
+    "918": {
+      "bleu1": 0.1667,
+      "rouge": 0.2061,
+      "cider": 0.0039,
+      "meteor": null
+    },
+    "919": {
+      "bleu1": 0.3529,
+      "rouge": 0.2855,
+      "cider": 0.0339,
+      "meteor": null
+    },
+    "920": {
+      "bleu1": 0.375,
+      "rouge": 0.4433,
+      "cider": 0.344,
+      "meteor": null
+    },
+    "921": {
+      "bleu1": 0.2308,
+      "rouge": 0.3383,
+      "cider": 0.1556,
+      "meteor": null
+    },
+    "922": {
+      "bleu1": 0.3333,
+      "rouge": 0.2075,
+      "cider": 0.0806,
+      "meteor": null
+    },
+    "923": {
+      "bleu1": 0.2667,
+      "rouge": 0.184,
+      "cider": 0.0753,
+      "meteor": null
+    },
+    "924": {
+      "bleu1": 0.2,
+      "rouge": 0.166,
+      "cider": 0.04,
+      "meteor": null
+    },
+    "925": {
+      "bleu1": 0.1176,
+      "rouge": 0.1711,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "926": {
+      "bleu1": 0.2857,
+      "rouge": 0.304,
+      "cider": 0.0978,
+      "meteor": null
+    },
+    "927": {
+      "bleu1": 0.3571,
+      "rouge": 0.5066,
+      "cider": 0.2804,
+      "meteor": null
+    },
+    "928": {
+      "bleu1": 0.3571,
+      "rouge": 0.3824,
+      "cider": 0.1509,
+      "meteor": null
+    },
+    "929": {
+      "bleu1": 0.1875,
+      "rouge": 0.2807,
+      "cider": 0.0902,
+      "meteor": null
+    },
+    "930": {
+      "bleu1": 0.25,
+      "rouge": 0.2961,
+      "cider": 0.0584,
+      "meteor": null
+    },
+    "931": {
+      "bleu1": 0.2778,
+      "rouge": 0.3664,
+      "cider": 0.0665,
+      "meteor": null
+    },
+    "932": {
+      "bleu1": 0.375,
+      "rouge": 0.3832,
+      "cider": 0.283,
+      "meteor": null
+    },
+    "933": {
+      "bleu1": 0.0952,
+      "rouge": 0.157,
+      "cider": 0.0125,
+      "meteor": null
+    },
+    "934": {
+      "bleu1": 0.2,
+      "rouge": 0.2919,
+      "cider": 0.1899,
+      "meteor": null
+    },
+    "935": {
+      "bleu1": 0.3889,
+      "rouge": 0.221,
+      "cider": 0.0592,
+      "meteor": null
+    },
+    "936": {
+      "bleu1": 0.0952,
+      "rouge": 0.157,
+      "cider": 0.0064,
+      "meteor": null
+    },
+    "937": {
+      "bleu1": 0.3158,
+      "rouge": 0.2517,
+      "cider": 0.0316,
+      "meteor": null
+    },
+    "938": {
+      "bleu1": 0.4167,
+      "rouge": 0.4729,
+      "cider": 0.3901,
+      "meteor": null
+    },
+    "939": {
+      "bleu1": 0.5,
+      "rouge": 0.3645,
+      "cider": 0.4039,
+      "meteor": null
+    },
+    "940": {
+      "bleu1": 0.25,
+      "rouge": 0.2731,
+      "cider": 0.0838,
+      "meteor": null
+    },
+    "941": {
+      "bleu1": 0.1111,
+      "rouge": 0.1279,
+      "cider": 0.0007,
+      "meteor": null
+    },
+    "942": {
+      "bleu1": 0.3125,
+      "rouge": 0.1981,
+      "cider": 0.1015,
+      "meteor": null
+    },
+    "943": {
+      "bleu1": 0.2609,
+      "rouge": 0.3232,
+      "cider": 0.0185,
+      "meteor": null
+    },
+    "944": {
+      "bleu1": 0.1,
+      "rouge": 0.1362,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "945": {
+      "bleu1": 0.1818,
+      "rouge": 0.1456,
+      "cider": 0.0051,
+      "meteor": null
+    },
+    "946": {
+      "bleu1": 0.3636,
+      "rouge": 0.2167,
+      "cider": 0.1584,
+      "meteor": null
+    },
+    "947": {
+      "bleu1": 0.3333,
+      "rouge": 0.4519,
+      "cider": 0.1748,
+      "meteor": null
+    },
+    "948": {
+      "bleu1": 0.4545,
+      "rouge": 0.4334,
+      "cider": 0.4342,
+      "meteor": null
+    },
+    "949": {
+      "bleu1": 0.3333,
+      "rouge": 0.3301,
+      "cider": 0.0245,
+      "meteor": null
+    },
+    "950": {
+      "bleu1": 0.3636,
+      "rouge": 0.3055,
+      "cider": 0.1312,
+      "meteor": null
+    },
+    "951": {
+      "bleu1": 0.2849,
+      "rouge": 0.398,
+      "cider": 0.2157,
+      "meteor": null
+    },
+    "952": {
+      "bleu1": 0.2353,
+      "rouge": 0.2703,
+      "cider": 0.0694,
+      "meteor": null
+    },
+    "953": {
+      "bleu1": 0.1905,
+      "rouge": 0.247,
+      "cider": 0.0185,
+      "meteor": null
+    },
+    "954": {
+      "bleu1": 0.2,
+      "rouge": 0.1049,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "955": {
+      "bleu1": 0.1176,
+      "rouge": 0.2017,
+      "cider": 0.0252,
+      "meteor": null
+    },
+    "956": {
+      "bleu1": 0.2353,
+      "rouge": 0.1802,
+      "cider": 0.0607,
+      "meteor": null
+    },
+    "957": {
+      "bleu1": 0.1429,
+      "rouge": 0.1386,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "958": {
+      "bleu1": 0.1667,
+      "rouge": 0.2542,
+      "cider": 0.1018,
+      "meteor": null
+    },
+    "959": {
+      "bleu1": 0.4,
+      "rouge": 0.4256,
+      "cider": 0.5888,
+      "meteor": null
+    },
+    "960": {
+      "bleu1": 0.1,
+      "rouge": 0.1419,
+      "cider": 0.0008,
+      "meteor": null
+    },
+    "961": {
+      "bleu1": 0.25,
+      "rouge": 0.3096,
+      "cider": 0.041,
+      "meteor": null
+    },
+    "962": {
+      "bleu1": 0.5333,
+      "rouge": 0.415,
+      "cider": 0.2952,
+      "meteor": null
+    },
+    "963": {
+      "bleu1": 0.1554,
+      "rouge": 0.1164,
+      "cider": 0.0501,
+      "meteor": null
+    },
+    "964": {
+      "bleu1": 0.2778,
+      "rouge": 0.1832,
+      "cider": 0.0254,
+      "meteor": null
+    },
+    "965": {
+      "bleu1": 0.3846,
+      "rouge": 0.4229,
+      "cider": 0.2163,
+      "meteor": null
+    },
+    "966": {
+      "bleu1": 0.3333,
+      "rouge": 0.2905,
+      "cider": 0.0417,
+      "meteor": null
+    },
+    "967": {
+      "bleu1": 0.125,
+      "rouge": 0.1981,
+      "cider": 0.0153,
+      "meteor": null
+    },
+    "968": {
+      "bleu1": 0.1111,
+      "rouge": 0.1027,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "969": {
+      "bleu1": 0.1176,
+      "rouge": 0.0901,
+      "cider": 0.002,
+      "meteor": null
+    },
+    "970": {
+      "bleu1": 0.2,
+      "rouge": 0.2004,
+      "cider": 0.0101,
+      "meteor": null
+    },
+    "971": {
+      "bleu1": 0.2667,
+      "rouge": 0.3096,
+      "cider": 0.1356,
+      "meteor": null
+    },
+    "972": {
+      "bleu1": 0.1481,
+      "rouge": 0.1369,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "973": {
+      "bleu1": 0.4118,
+      "rouge": 0.4758,
+      "cider": 0.1454,
+      "meteor": null
+    },
+    "974": {
+      "bleu1": 0.2308,
+      "rouge": 0.3172,
+      "cider": 0.0622,
+      "meteor": null
+    },
+    "975": {
+      "bleu1": 0.2308,
+      "rouge": 0.282,
+      "cider": 0.1588,
+      "meteor": null
+    },
+    "976": {
+      "bleu1": 0.2667,
+      "rouge": 0.3096,
+      "cider": 0.1091,
+      "meteor": null
+    },
+    "977": {
+      "bleu1": 0.3,
+      "rouge": 0.3927,
+      "cider": 0.1761,
+      "meteor": null
+    },
+    "978": {
+      "bleu1": 0.1,
+      "rouge": 0.0811,
+      "cider": 0.0042,
+      "meteor": null
+    },
+    "979": {
+      "bleu1": 0.1875,
+      "rouge": 0.2971,
+      "cider": 0.0781,
+      "meteor": null
+    },
+    "980": {
+      "bleu1": 0.5556,
+      "rouge": 0.3836,
+      "cider": 0.8634,
+      "meteor": null
+    },
+    "981": {
+      "bleu1": 0.3571,
+      "rouge": 0.362,
+      "cider": 0.1782,
+      "meteor": null
+    },
+    "982": {
+      "bleu1": 0.1739,
+      "rouge": 0.1542,
+      "cider": 0.0061,
+      "meteor": null
+    },
+    "983": {
+      "bleu1": 0.25,
+      "rouge": 0.2971,
+      "cider": 0.1421,
+      "meteor": null
+    },
+    "984": {
+      "bleu1": 0.2353,
+      "rouge": 0.3422,
+      "cider": 0.1264,
+      "meteor": null
+    },
+    "985": {
+      "bleu1": 0.3333,
+      "rouge": 0.3165,
+      "cider": 0.1585,
+      "meteor": null
+    },
+    "986": {
+      "bleu1": 0.3333,
+      "rouge": 0.3112,
+      "cider": 0.1003,
+      "meteor": null
+    },
+    "987": {
+      "bleu1": 0.1667,
+      "rouge": 0.1105,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "988": {
+      "bleu1": 0.2,
+      "rouge": 0.1032,
+      "cider": 0.0625,
+      "meteor": null
+    },
+    "989": {
+      "bleu1": 0.25,
+      "rouge": 0.266,
+      "cider": 0.1146,
+      "meteor": null
+    },
+    "990": {
+      "bleu1": 0.25,
+      "rouge": 0.2971,
+      "cider": 0.0959,
+      "meteor": null
+    },
+    "991": {
+      "bleu1": 0.1429,
+      "rouge": 0.1151,
+      "cider": 0.0537,
+      "meteor": null
+    },
+    "992": {
+      "bleu1": 0.2727,
+      "rouge": 0.2882,
+      "cider": 0.3491,
+      "meteor": null
+    },
+    "993": {
+      "bleu1": 0.2857,
+      "rouge": 0.2355,
+      "cider": 0.0341,
+      "meteor": null
+    },
+    "994": {
+      "bleu1": 0.3684,
+      "rouge": 0.3198,
+      "cider": 0.1125,
+      "meteor": null
+    },
+    "995": {
+      "bleu1": 0.1818,
+      "rouge": 0.1593,
+      "cider": 0.0047,
+      "meteor": null
+    },
+    "996": {
+      "bleu1": 0.1667,
+      "rouge": 0.2607,
+      "cider": 0.015,
+      "meteor": null
+    },
+    "997": {
+      "bleu1": 0.0,
+      "rouge": 0.0,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "998": {
+      "bleu1": 0.3077,
+      "rouge": 0.3562,
+      "cider": 0.7831,
+      "meteor": null
+    },
+    "999": {
+      "bleu1": 0.0714,
+      "rouge": 0.0956,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "1000": {
+      "bleu1": 0.4375,
+      "rouge": 0.4678,
+      "cider": 0.3783,
+      "meteor": null
+    },
+    "1001": {
+      "bleu1": 0.087,
+      "rouge": 0.1542,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "1002": {
+      "bleu1": 0.5333,
+      "rouge": 0.3892,
+      "cider": 0.2893,
+      "meteor": null
+    },
+    "1003": {
+      "bleu1": 0.2609,
+      "rouge": 0.1885,
+      "cider": 0.0098,
+      "meteor": null
+    },
+    "1004": {
+      "bleu1": 0.2667,
+      "rouge": 0.2064,
+      "cider": 0.0225,
+      "meteor": null
+    },
+    "1005": {
+      "bleu1": 0.1667,
+      "rouge": 0.2607,
+      "cider": 0.0277,
+      "meteor": null
+    },
+    "1006": {
+      "bleu1": 0.4211,
+      "rouge": 0.3198,
+      "cider": 0.0551,
+      "meteor": null
+    },
+    "1007": {
+      "bleu1": 0.3846,
+      "rouge": 0.3172,
+      "cider": 0.1747,
+      "meteor": null
+    },
+    "1008": {
+      "bleu1": 0.2727,
+      "rouge": 0.4022,
+      "cider": 0.2504,
+      "meteor": null
+    },
+    "1009": {
+      "bleu1": 0.3571,
+      "rouge": 0.2453,
+      "cider": 0.2332,
+      "meteor": null
+    },
+    "1010": {
+      "bleu1": 0.1667,
+      "rouge": 0.2748,
+      "cider": 0.1103,
+      "meteor": null
+    },
+    "1011": {
+      "bleu1": 0.125,
+      "rouge": 0.1052,
+      "cider": 0.0168,
+      "meteor": null
+    },
+    "1012": {
+      "bleu1": 0.0952,
+      "rouge": 0.1437,
+      "cider": 0.0082,
+      "meteor": null
+    },
+    "1013": {
+      "bleu1": 0.6667,
+      "rouge": 0.6394,
+      "cider": 1.0001,
+      "meteor": null
+    },
+    "1014": {
+      "bleu1": 0.2857,
+      "rouge": 0.2874,
+      "cider": 0.0437,
+      "meteor": null
+    },
+    "1015": {
+      "bleu1": 0.4615,
+      "rouge": 0.451,
+      "cider": 0.2609,
+      "meteor": null
+    },
+    "1016": {
+      "bleu1": 0.1333,
+      "rouge": 0.1946,
+      "cider": 0.046,
+      "meteor": null
+    },
+    "1017": {
+      "bleu1": 0.381,
+      "rouge": 0.2302,
+      "cider": 0.0209,
+      "meteor": null
+    },
+    "1018": {
+      "bleu1": 0.4167,
+      "rouge": 0.2364,
+      "cider": 0.2181,
+      "meteor": null
+    },
+    "1019": {
+      "bleu1": 0.2778,
+      "rouge": 0.2748,
+      "cider": 0.0608,
+      "meteor": null
+    },
+    "1020": {
+      "bleu1": 0.3636,
+      "rouge": 0.4969,
+      "cider": 0.792,
+      "meteor": null
+    },
+    "1021": {
+      "bleu1": 0.2174,
+      "rouge": 0.2166,
+      "cider": 0.0089,
+      "meteor": null
+    },
+    "1022": {
+      "bleu1": 0.3158,
+      "rouge": 0.3198,
+      "cider": 0.0526,
+      "meteor": null
+    },
+    "1023": {
+      "bleu1": 0.1111,
+      "rouge": 0.0968,
+      "cider": 0.007,
+      "meteor": null
+    },
+    "1024": {
+      "bleu1": 0.2667,
+      "rouge": 0.2198,
+      "cider": 0.0716,
+      "meteor": null
+    },
+    "1025": {
+      "bleu1": 0.125,
+      "rouge": 0.1871,
+      "cider": 0.0491,
+      "meteor": null
+    },
+    "1026": {
+      "bleu1": 0.1304,
+      "rouge": 0.1414,
+      "cider": 0.0021,
+      "meteor": null
+    },
+    "1027": {
+      "bleu1": 0.0556,
+      "rouge": 0.0916,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "1028": {
+      "bleu1": 0.2857,
+      "rouge": 0.2868,
+      "cider": 0.0488,
+      "meteor": null
+    },
+    "1029": {
+      "bleu1": 0.3571,
+      "rouge": 0.2952,
+      "cider": 0.0868,
+      "meteor": null
+    },
+    "1030": {
+      "bleu1": 0.5,
+      "rouge": 0.6545,
+      "cider": 0.3156,
+      "meteor": null
+    },
+    "1031": {
+      "bleu1": 0.7143,
+      "rouge": 0.3437,
+      "cider": 0.741,
+      "meteor": null
+    },
+    "1032": {
+      "bleu1": 0.5,
+      "rouge": 0.442,
+      "cider": 0.6062,
+      "meteor": null
+    },
+    "1033": {
+      "bleu1": 0.1579,
+      "rouge": 0.1599,
+      "cider": 0.0208,
+      "meteor": null
+    },
+    "1034": {
+      "bleu1": 0.3684,
+      "rouge": 0.3356,
+      "cider": 0.0778,
+      "meteor": null
+    },
+    "1035": {
+      "bleu1": 0.4615,
+      "rouge": 0.47,
+      "cider": 0.3135,
+      "meteor": null
+    },
+    "1036": {
+      "bleu1": 0.12,
+      "rouge": 0.1391,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "1037": {
+      "bleu1": 0.3333,
+      "rouge": 0.3315,
+      "cider": 0.1391,
+      "meteor": null
+    },
+    "1038": {
+      "bleu1": 0.2308,
+      "rouge": 0.2416,
+      "cider": 0.1305,
+      "meteor": null
+    },
+    "1039": {
+      "bleu1": 0.4545,
+      "rouge": 0.3727,
+      "cider": 0.2968,
+      "meteor": null
+    },
+    "1040": {
+      "bleu1": 0.3478,
+      "rouge": 0.2213,
+      "cider": 0.0178,
+      "meteor": null
+    },
+    "1041": {
+      "bleu1": 0.1538,
+      "rouge": 0.188,
+      "cider": 0.0555,
+      "meteor": null
+    },
+    "1042": {
+      "bleu1": 0.2667,
+      "rouge": 0.276,
+      "cider": 0.0782,
+      "meteor": null
+    },
+    "1043": {
+      "bleu1": 0.2727,
+      "rouge": 0.1921,
+      "cider": 0.1077,
+      "meteor": null
+    },
+    "1044": {
+      "bleu1": 0.2,
+      "rouge": 0.2618,
+      "cider": 0.1083,
+      "meteor": null
+    },
+    "1045": {
+      "bleu1": 0.4211,
+      "rouge": 0.2648,
+      "cider": 0.059,
+      "meteor": null
+    },
+    "1046": {
+      "bleu1": 0.3529,
+      "rouge": 0.3669,
+      "cider": 0.1762,
+      "meteor": null
+    },
+    "1047": {
+      "bleu1": 0.3158,
+      "rouge": 0.2192,
+      "cider": 0.0743,
+      "meteor": null
+    },
+    "1048": {
+      "bleu1": 0.2222,
+      "rouge": 0.1267,
+      "cider": 0.0024,
+      "meteor": null
+    },
+    "1049": {
+      "bleu1": 0.2727,
+      "rouge": 0.4022,
+      "cider": 0.3853,
+      "meteor": null
+    },
+    "1050": {
+      "bleu1": 0.4211,
+      "rouge": 0.3413,
+      "cider": 0.0522,
+      "meteor": null
+    },
+    "1051": {
+      "bleu1": 0.1765,
+      "rouge": 0.1424,
+      "cider": 0.0536,
+      "meteor": null
+    },
+    "1052": {
+      "bleu1": 0.25,
+      "rouge": 0.2971,
+      "cider": 0.0581,
+      "meteor": null
+    },
+    "1053": {
+      "bleu1": 0.3032,
+      "rouge": 0.2681,
+      "cider": 0.121,
+      "meteor": null
+    },
+    "1054": {
+      "bleu1": 0.25,
+      "rouge": 0.1105,
+      "cider": 0.07,
+      "meteor": null
+    },
+    "1055": {
+      "bleu1": 0.25,
+      "rouge": 0.3547,
+      "cider": 0.2604,
+      "meteor": null
+    },
+    "1056": {
+      "bleu1": 0.1905,
+      "rouge": 0.2251,
+      "cider": 0.0176,
+      "meteor": null
+    },
+    "1057": {
+      "bleu1": 0.4118,
+      "rouge": 0.4278,
+      "cider": 0.096,
+      "meteor": null
+    },
+    "1058": {
+      "bleu1": 0.0667,
+      "rouge": 0.1175,
+      "cider": 0.0289,
+      "meteor": null
+    },
+    "1059": {
+      "bleu1": 0.1875,
+      "rouge": 0.2383,
+      "cider": 0.0009,
+      "meteor": null
+    },
+    "1060": {
+      "bleu1": 0.1481,
+      "rouge": 0.1179,
+      "cider": 0.0018,
+      "meteor": null
+    },
+    "1061": {
+      "bleu1": 0.2941,
+      "rouge": 0.2703,
+      "cider": 0.1035,
+      "meteor": null
+    },
+    "1062": {
+      "bleu1": 0.4706,
+      "rouge": 0.3422,
+      "cider": 0.2276,
+      "meteor": null
+    },
+    "1063": {
+      "bleu1": 0.25,
+      "rouge": 0.1871,
+      "cider": 0.0381,
+      "meteor": null
+    },
+    "1064": {
+      "bleu1": 0.3846,
+      "rouge": 0.3172,
+      "cider": 0.3531,
+      "meteor": null
+    },
+    "1065": {
+      "bleu1": 0.2,
+      "rouge": 0.1704,
+      "cider": 0.0126,
+      "meteor": null
+    },
+    "1066": {
+      "bleu1": 0.3571,
+      "rouge": 0.3233,
+      "cider": 0.2346,
+      "meteor": null
+    },
+    "1067": {
+      "bleu1": 0.2857,
+      "rouge": 0.1698,
+      "cider": 0.0031,
+      "meteor": null
+    },
+    "1068": {
+      "bleu1": 0.25,
+      "rouge": 0.3961,
+      "cider": 0.1226,
+      "meteor": null
+    },
+    "1069": {
+      "bleu1": 0.2778,
+      "rouge": 0.2542,
+      "cider": 0.0948,
+      "meteor": null
+    },
+    "1070": {
+      "bleu1": 0.1818,
+      "rouge": 0.2681,
+      "cider": 0.2852,
+      "meteor": null
+    },
+    "1071": {
+      "bleu1": 0.2632,
+      "rouge": 0.2922,
+      "cider": 0.0973,
+      "meteor": null
+    },
+    "1072": {
+      "bleu1": 0.1875,
+      "rouge": 0.1685,
+      "cider": 0.0293,
+      "meteor": null
+    },
+    "1073": {
+      "bleu1": 0.2308,
+      "rouge": 0.2416,
+      "cider": 0.1173,
+      "meteor": null
+    },
+    "1074": {
+      "bleu1": 0.1875,
+      "rouge": 0.0936,
+      "cider": 0.0659,
+      "meteor": null
+    },
+    "1075": {
+      "bleu1": 0.4286,
+      "rouge": 0.6008,
+      "cider": 0.3721,
+      "meteor": null
+    },
+    "1076": {
+      "bleu1": 0.3846,
+      "rouge": 0.2985,
+      "cider": 0.2857,
+      "meteor": null
+    },
+    "1077": {
+      "bleu1": 0.3125,
+      "rouge": 0.4207,
+      "cider": 0.2835,
+      "meteor": null
+    },
+    "1078": {
+      "bleu1": 0.1053,
+      "rouge": 0.0931,
+      "cider": 0.0068,
+      "meteor": null
+    },
+    "1079": {
+      "bleu1": 0.3571,
+      "rouge": 0.1912,
+      "cider": 0.1654,
+      "meteor": null
+    },
+    "1080": {
+      "bleu1": 0.0667,
+      "rouge": 0.1032,
+      "cider": 0.0007,
+      "meteor": null
+    },
+    "1081": {
+      "bleu1": 0.2,
+      "rouge": 0.3096,
+      "cider": 0.1169,
+      "meteor": null
+    },
+    "1082": {
+      "bleu1": 0.6429,
+      "rouge": 0.4586,
+      "cider": 0.1553,
+      "meteor": null
+    },
+    "1083": {
+      "bleu1": 0.2581,
+      "rouge": 0.2552,
+      "cider": 0.0006,
+      "meteor": null
+    },
+    "1084": {
+      "bleu1": 0.35,
+      "rouge": 0.2434,
+      "cider": 0.0478,
+      "meteor": null
+    },
+    "1085": {
+      "bleu1": 0.1154,
+      "rouge": 0.1951,
+      "cider": 0.0007,
+      "meteor": null
+    },
+    "1086": {
+      "bleu1": 0.375,
+      "rouge": 0.2971,
+      "cider": 0.1895,
+      "meteor": null
+    },
+    "1087": {
+      "bleu1": 0.2941,
+      "rouge": 0.3422,
+      "cider": 0.1261,
+      "meteor": null
+    },
+    "1088": {
+      "bleu1": 0.5385,
+      "rouge": 0.4229,
+      "cider": 0.2777,
+      "meteor": null
+    },
+    "1089": {
+      "bleu1": 0.0769,
+      "rouge": 0.1057,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "1090": {
+      "bleu1": 0.04,
+      "rouge": 0.0725,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "1091": {
+      "bleu1": 0.4167,
+      "rouge": 0.442,
+      "cider": 0.3309,
+      "meteor": null
+    },
+    "1092": {
+      "bleu1": 0.2353,
+      "rouge": 0.2855,
+      "cider": 0.0719,
+      "meteor": null
+    },
+    "1093": {
+      "bleu1": 0.4971,
+      "rouge": 0.5115,
+      "cider": 0.4707,
+      "meteor": null
+    },
+    "1094": {
+      "bleu1": 0.1786,
+      "rouge": 0.1922,
+      "cider": 0.0005,
+      "meteor": null
+    },
+    "1095": {
+      "bleu1": 0.0714,
+      "rouge": 0.1013,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "1096": {
+      "bleu1": 0.1667,
+      "rouge": 0.221,
+      "cider": 0.0345,
+      "meteor": null
+    },
+    "1097": {
+      "bleu1": 0.3077,
+      "rouge": 0.398,
+      "cider": 0.2904,
+      "meteor": null
+    },
+    "1098": {
+      "bleu1": 0.1818,
+      "rouge": 0.1593,
+      "cider": 0.0036,
+      "meteor": null
+    },
+    "1099": {
+      "bleu1": 0.3846,
+      "rouge": 0.3172,
+      "cider": 0.2701,
+      "meteor": null
+    },
+    "1100": {
+      "bleu1": 0.3125,
+      "rouge": 0.2408,
+      "cider": 0.0693,
+      "meteor": null
+    },
+    "1101": {
+      "bleu1": 0.125,
+      "rouge": 0.1773,
+      "cider": 0.0004,
+      "meteor": null
+    },
+    "1102": {
+      "bleu1": 0.1739,
+      "rouge": 0.2213,
+      "cider": 0.0195,
+      "meteor": null
+    },
+    "1103": {
+      "bleu1": 0.3846,
+      "rouge": 0.398,
+      "cider": 0.2198,
+      "meteor": null
+    },
+    "1104": {
+      "bleu1": 0.2,
+      "rouge": 0.2198,
+      "cider": 0.1434,
+      "meteor": null
+    },
+    "1105": {
+      "bleu1": 0.1379,
+      "rouge": 0.1296,
+      "cider": 0.0001,
+      "meteor": null
+    },
+    "1106": {
+      "bleu1": 0.2941,
+      "rouge": 0.3604,
+      "cider": 0.2263,
+      "meteor": null
+    },
+    "1107": {
+      "bleu1": 0.2414,
+      "rouge": 0.1807,
+      "cider": 0.0012,
+      "meteor": null
+    },
+    "1108": {
+      "bleu1": 0.4667,
+      "rouge": 0.552,
+      "cider": 0.4116,
+      "meteor": null
+    },
+    "1109": {
+      "bleu1": 0.1818,
+      "rouge": 0.2681,
+      "cider": 0.3157,
+      "meteor": null
+    },
+    "1110": {
+      "bleu1": 0.1765,
+      "rouge": 0.1903,
+      "cider": 0.0482,
+      "meteor": null
+    },
+    "1111": {
+      "bleu1": 0.1333,
+      "rouge": 0.2064,
+      "cider": 0.0609,
+      "meteor": null
+    },
+    "1112": {
+      "bleu1": 0.0,
+      "rouge": 0.0,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "1113": {
+      "bleu1": 0.2857,
+      "rouge": 0.2027,
+      "cider": 0.1749,
+      "meteor": null
+    },
+    "1114": {
+      "bleu1": 0.1892,
+      "rouge": 0.1531,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "1115": {
+      "bleu1": 0.1429,
+      "rouge": 0.2302,
+      "cider": 0.0446,
+      "meteor": null
+    },
+    "1116": {
+      "bleu1": 0.3333,
+      "rouge": 0.2364,
+      "cider": 0.2276,
+      "meteor": null
+    },
+    "1117": {
+      "bleu1": 0.25,
+      "rouge": 0.2971,
+      "cider": 0.041,
+      "meteor": null
+    },
+    "1118": {
+      "bleu1": 0.3333,
+      "rouge": 0.3491,
+      "cider": 0.1002,
+      "meteor": null
+    },
+    "1119": {
+      "bleu1": 0.2632,
+      "rouge": 0.2794,
+      "cider": 0.0192,
+      "meteor": null
+    },
+    "1120": {
+      "bleu1": 0.3333,
+      "rouge": 0.2378,
+      "cider": 0.1004,
+      "meteor": null
+    },
+    "1121": {
+      "bleu1": 0.4167,
+      "rouge": 0.3697,
+      "cider": 0.1998,
+      "meteor": null
+    },
+    "1122": {
+      "bleu1": 0.5385,
+      "rouge": 0.376,
+      "cider": 0.5812,
+      "meteor": null
+    },
+    "1123": {
+      "bleu1": 0.2222,
+      "rouge": 0.2748,
+      "cider": 0.0295,
+      "meteor": null
+    },
+    "1124": {
+      "bleu1": 0.2273,
+      "rouge": 0.1593,
+      "cider": 0.0155,
+      "meteor": null
+    },
+    "1125": {
+      "bleu1": 0.2,
+      "rouge": 0.1946,
+      "cider": 0.0929,
+      "meteor": null
+    },
+    "1126": {
+      "bleu1": 0.2727,
+      "rouge": 0.2681,
+      "cider": 0.0897,
+      "meteor": null
+    },
+    "1127": {
+      "bleu1": 0.5,
+      "rouge": 0.4729,
+      "cider": 0.668,
+      "meteor": null
+    },
+    "1128": {
+      "bleu1": 0.25,
+      "rouge": 0.2042,
+      "cider": 0.0416,
+      "meteor": null
+    },
+    "1129": {
+      "bleu1": 0.4286,
+      "rouge": 0.4781,
+      "cider": 0.1732,
+      "meteor": null
+    },
+    "1130": {
+      "bleu1": 0.3125,
+      "rouge": 0.3742,
+      "cider": 0.2049,
+      "meteor": null
+    },
+    "1131": {
+      "bleu1": 0.2,
+      "rouge": 0.184,
+      "cider": 0.1791,
+      "meteor": null
+    },
+    "1132": {
+      "bleu1": 0.1875,
+      "rouge": 0.2807,
+      "cider": 0.0358,
+      "meteor": null
+    },
+    "1133": {
+      "bleu1": 0.2143,
+      "rouge": 0.1718,
+      "cider": 0.0793,
+      "meteor": null
+    },
+    "1134": {
+      "bleu1": 0.3561,
+      "rouge": 0.4229,
+      "cider": 0.278,
+      "meteor": null
+    },
+    "1135": {
+      "bleu1": 0.0556,
+      "rouge": 0.0916,
+      "cider": 0.0076,
+      "meteor": null
+    },
+    "1136": {
+      "bleu1": 0.2143,
+      "rouge": 0.2302,
+      "cider": 0.1212,
+      "meteor": null
+    },
+    "1137": {
+      "bleu1": 0.2308,
+      "rouge": 0.199,
+      "cider": 0.0477,
+      "meteor": null
+    },
+    "1138": {
+      "bleu1": 0.375,
+      "rouge": 0.3547,
+      "cider": 0.1353,
+      "meteor": null
+    },
+    "1139": {
+      "bleu1": 0.2857,
+      "rouge": 0.2027,
+      "cider": 0.0707,
+      "meteor": null
+    },
+    "1140": {
+      "bleu1": 0.25,
+      "rouge": 0.2528,
+      "cider": 0.0994,
+      "meteor": null
+    },
+    "1141": {
+      "bleu1": 0.5,
+      "rouge": 0.4053,
+      "cider": 0.2252,
+      "meteor": null
+    },
+    "1142": {
+      "bleu1": 0.4286,
+      "rouge": 0.3001,
+      "cider": 0.0388,
+      "meteor": null
+    },
+    "1143": {
+      "bleu1": 0.4667,
+      "rouge": 0.368,
+      "cider": 0.1242,
+      "meteor": null
+    },
+    "1144": {
+      "bleu1": 0.25,
+      "rouge": 0.2864,
+      "cider": 0.0068,
+      "meteor": null
+    },
+    "1145": {
+      "bleu1": 0.25,
+      "rouge": 0.2556,
+      "cider": 0.0509,
+      "meteor": null
+    },
+    "1146": {
+      "bleu1": 0.2222,
+      "rouge": 0.1653,
+      "cider": 0.0502,
+      "meteor": null
+    },
+    "1147": {
+      "bleu1": 0.5,
+      "rouge": 0.4861,
+      "cider": 0.5393,
+      "meteor": null
+    },
+    "1148": {
+      "bleu1": 0.3571,
+      "rouge": 0.4311,
+      "cider": 0.1842,
+      "meteor": null
+    },
+    "1149": {
+      "bleu1": 0.0,
+      "rouge": 0.0,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "1150": {
+      "bleu1": 0.1923,
+      "rouge": 0.1409,
+      "cider": 0.0012,
+      "meteor": null
+    },
+    "1151": {
+      "bleu1": 0.0952,
+      "rouge": 0.0823,
+      "cider": 0.0012,
+      "meteor": null
+    },
+    "1152": {
+      "bleu1": 0.2941,
+      "rouge": 0.3422,
+      "cider": 0.1612,
+      "meteor": null
+    },
+    "1153": {
+      "bleu1": 0.1579,
+      "rouge": 0.0883,
+      "cider": 0.0172,
+      "meteor": null
+    },
+    "1154": {
+      "bleu1": 0.1923,
+      "rouge": 0.2505,
+      "cider": 0.0035,
+      "meteor": null
+    },
+    "1155": {
+      "bleu1": 0.2727,
+      "rouge": 0.2184,
+      "cider": 0.0452,
+      "meteor": null
+    },
+    "1156": {
+      "bleu1": 0.1429,
+      "rouge": 0.157,
+      "cider": 0.0087,
+      "meteor": null
+    },
+    "1157": {
+      "bleu1": 0.4,
+      "rouge": 0.368,
+      "cider": 0.1866,
+      "meteor": null
+    },
+    "1158": {
+      "bleu1": 0.1304,
+      "rouge": 0.1475,
+      "cider": 0.0004,
+      "meteor": null
+    },
+    "1159": {
+      "bleu1": 0.1818,
+      "rouge": 0.2282,
+      "cider": 0.0062,
+      "meteor": null
+    },
+    "1160": {
+      "bleu1": 0.0455,
+      "rouge": 0.0761,
+      "cider": 0.0,
+      "meteor": null
+    },
+    "1161": {
+      "bleu1": 0.3636,
+      "rouge": 0.4969,
+      "cider": 0.3264,
+      "meteor": null
+    },
+    "1162": {
+      "bleu1": 0.1429,
+      "rouge": 0.156,
+      "cider": 0.0014,
+      "meteor": null
+    },
+    "1163": {
+      "bleu1": 0.1875,
+      "rouge": 0.1871,
+      "cider": 0.0817,
+      "meteor": null
+    },
+    "1164": {
+      "bleu1": 0.5714,
+      "rouge": 0.4286,
+      "cider": 0.5141,
+      "meteor": null
+    },
+    "1165": {
+      "bleu1": 0.5455,
+      "rouge": 0.463,
+      "cider": 0.4636,
+      "meteor": null
+    },
+    "1166": {
+      "bleu1": 0.25,
+      "rouge": 0.2103,
+      "cider": 0.0726,
+      "meteor": null
+    },
+    "1167": {
+      "bleu1": 0.2857,
+      "rouge": 0.2155,
+      "cider": 0.0179,
+      "meteor": null
+    },
+    "1168": {
+      "bleu1": 0.15,
+      "rouge": 0.1704,
+      "cider": 0.0041,
+      "meteor": null
+    },
+    "1169": {
+      "bleu1": 0.125,
+      "rouge": 0.1871,
+      "cider": 0.037,
+      "meteor": null
+    },
+    "1170": {
+      "bleu1": 0.1333,
+      "rouge": 0.1745,
+      "cider": 0.0118,
+      "meteor": null
+    },
+    "1171": {
+      "bleu1": 0.25,
+      "rouge": 0.2364,
+      "cider": 0.0723,
+      "meteor": null
+    },
+    "1172": {
+      "bleu1": 0.2727,
+      "rouge": 0.364,
+      "cider": 0.0278,
+      "meteor": null
+    },
+    "1173": {
+      "bleu1": 0.6923,
+      "rouge": 0.5126,
+      "cider": 0.7174,
+      "meteor": null
+    },
+    "1174": {
+      "bleu1": 0.2667,
+      "rouge": 0.3096,
+      "cider": 0.0483,
+      "meteor": null
+    },
+    "1175": {
+      "bleu1": 0.25,
+      "rouge": 0.2542,
+      "cider": 0.1905,
+      "meteor": null
+    },
+    "1176": {
+      "bleu1": 0.2593,
+      "rouge": 0.214,
+      "cider": 0.0007,
+      "meteor": null
+    },
+    "1177": {
+      "bleu1": 0.2632,
+      "rouge": 0.229,
+      "cider": 0.023,
+      "meteor": null
+    },
+    "1178": {
+      "bleu1": 0.4294,
+      "rouge": 0.3557,
+      "cider": 0.5452,
+      "meteor": null
+    },
+    "1179": {
+      "bleu1": 0.2941,
+      "rouge": 0.3885,
+      "cider": 0.2121,
+      "meteor": null
+    },
+    "1180": {
+      "bleu1": 0.3077,
+      "rouge": 0.2255,
+      "cider": 0.135,
+      "meteor": null
+    },
+    "1181": {
+      "bleu1": 0.375,
+      "rouge": 0.3547,
+      "cider": 0.075,
+      "meteor": null
+    },
+    "1182": {
+      "bleu1": 0.2727,
+      "rouge": 0.1341,
+      "cider": 0.0255,
+      "meteor": null
+    },
+    "1183": {
+      "bleu1": 0.25,
+      "rouge": 0.3297,
+      "cider": 0.0563,
+      "meteor": null
+    },
+    "1184": {
+      "bleu1": 0.3325,
+      "rouge": 0.2056,
+      "cider": 0.1152,
+      "meteor": null
+    },
+    "1185": {
+      "bleu1": 0.0526,
+      "rouge": 0.0839,
+      "cider": 0.0002,
+      "meteor": null
+    },
+    "1186": {
+      "bleu1": 0.2381,
+      "rouge": 0.2874,
+      "cider": 0.0197,
+      "meteor": null
+    },
+    "1187": {
+      "bleu1": 0.1739,
+      "rouge": 0.2121,
+      "cider": 0.0045,
+      "meteor": null
+    },
+    "1188": {
+      "bleu1": 0.2,
+      "rouge": 0.2919,
+      "cider": 0.1155,
+      "meteor": null
+    },
+    "1189": {
+      "bleu1": 0.0667,
+      "rouge": 0.0973,
+      "cider": 0.0359,
+      "meteor": null
+    },
+    "1190": {
+      "bleu1": 0.3684,
+      "rouge": 0.2841,
+      "cider": 0.0869,
+      "meteor": null
+    },
+    "1191": {
+      "bleu1": 0.0667,
+      "rouge": 0.083,
+      "cider": 0.0007,
+      "meteor": null
+    },
+    "1192": {
+      "bleu1": 0.0909,
+      "rouge": 0.0796,
+      "cider": 0.0003,
+      "meteor": null
+    },
+    "1193": {
+      "bleu1": 0.3333,
+      "rouge": 0.46,
+      "cider": 0.1908,
+      "meteor": null
+    },
+    "1194": {
+      "bleu1": 0.4211,
+      "rouge": 0.2517,
+      "cider": 0.0524,
+      "meteor": null
+    },
+    "1195": {
+      "bleu1": 0.3125,
+      "rouge": 0.266,
+      "cider": 0.1722,
+      "meteor": null
+    },
+    "1196": {
+      "bleu1": 0.2,
+      "rouge": 0.1704,
+      "cider": 0.0004,
+      "meteor": null
+    },
+    "1197": {
+      "bleu1": 0.2353,
+      "rouge": 0.2703,
+      "cider": 0.0898,
+      "meteor": null
+    },
+    "1198": {
+      "bleu1": 0.1875,
+      "rouge": 0.1981,
+      "cider": 0.0347,
+      "meteor": null
+    },
+    "1199": {
+      "bleu1": 0.3333,
+      "rouge": 0.248,
+      "cider": 0.0417,
+      "meteor": null
+    }
+  }
+}

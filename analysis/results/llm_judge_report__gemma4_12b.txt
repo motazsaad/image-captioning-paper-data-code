@@ -1,0 +1,4 @@
+LLM-as-Judge evaluation (model: gemma4:12b)
+============================================================
+config      n    fluency  relevance obj_acc   overall 
+ar_google   6006 4.76     4.79      4.82      4.75    

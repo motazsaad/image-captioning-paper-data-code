@@ -1,0 +1,26 @@
+{
+  "judge_model": "qwen3:8b",
+  "mode": "per-caption (full dataset)",
+  "note": "Pearson correlation between LLM-as-Judge scores and round-trip back-translation fidelity, matched on identical Arabic captions.",
+  "n": 2416,
+  "pearson": {
+    "semantic_sim": {
+      "fluency": 0.089,
+      "relevance": 0.209,
+      "object_accuracy": 0.238,
+      "overall": 0.198
+    },
+    "token_f1": {
+      "fluency": 0.092,
+      "relevance": 0.157,
+      "object_accuracy": 0.188,
+      "overall": 0.146
+    },
+    "bleu1": {
+      "fluency": 0.171,
+      "relevance": 0.223,
+      "object_accuracy": 0.242,
+      "overall": 0.221
+    }
+  }
+}

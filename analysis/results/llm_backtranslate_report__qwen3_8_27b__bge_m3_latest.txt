@@ -1,0 +1,4 @@
+LLM Round-Trip Translation Fidelity (model: qwen3.8:27b, embed: bge-m3:latest)
+============================================================
+source      n    sem_sim   token_F1  BLEU-1  
+ar_google   2400 0.8388    0.5561    0.7192  

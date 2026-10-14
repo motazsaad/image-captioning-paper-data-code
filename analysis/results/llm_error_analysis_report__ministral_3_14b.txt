@@ -1,0 +1,12 @@
+LLM Error Analysis (model: ministral-3:14b)
+============================================================
+
+[ar_google] (n=6006)
+  mean repetition ratio : 0.012
+  mean overall quality  : 1.885
+  issues by category    : {'hallucination': 12830, 'mt_artifact': 6343, 'grammar': 5469, 'other': 2138, 'repetition': 5168}
+      e.g. "رجل" (The reference captions use gender-neutral terms like 'a person,' 'someone,' or 'a man,' but the generated caption specifies 'رجل' (man), which is not explicitly supported by the image description or all references. The image does not confirm the gender of the person.)
+      e.g. "قطة مستلقية على ظهرها في حجر الرجل" (The generated caption is a direct, unnatural calque of the English reference structure ('a cat lying on its back in a man's lap'). The phrase 'في حجر' (literally 'in the lap of') is grammatically correct but sounds overly literal and less natural in Arabic compared to alternatives like 'في حضن' or 'في فخذ'.)
+      e.g. "قطة مستلقية" (While not incorrect, 'مستلقية' (lying down) is slightly less natural than 'مستلقية على ظهرها' (lying on its back) in this context. The redundancy of 'مستلقية' + 'على ظهرها' is not an error but could be streamlined to 'مستلقية على ظهرها' for conciseness. The issue is minor but reflects a slight awkwardness in phrasing.)
+      e.g. "caption" (The generated caption lacks the contextual detail present in the references (e.g., 'sitting on a couch'), which is implied in the image description but not explicitly translated. This omission reduces the caption's descriptive richness.)
+      e.g. "مع بطنها" (The phrase **مع بطنها** is redundant. The cat’s belly being exposed is implied by **على ظهرها** (on its back) or **بطنها لأعلى** (belly up). The generated caption adds unnecessary prepositional phrasing that doesn’t enhance clarity.)

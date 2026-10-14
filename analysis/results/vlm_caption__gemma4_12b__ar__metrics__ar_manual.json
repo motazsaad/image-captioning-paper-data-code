@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b",
+  "lang": "ar",
+  "refs": "ar_manual",
+  "n": 0,
+  "metrics": {
+    "BLEU-1": null,
+    "BLEU-2": null,
+    "BLEU-3": null,
+    "BLEU-4": null,
+    "BLEUavg": null,
+    "ROUGE-L": null,
+    "CIDEr": null,
+    "METEOR": null
+  },
+  "per_image": {}
+}

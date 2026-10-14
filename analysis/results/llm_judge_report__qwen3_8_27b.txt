@@ -1,0 +1,4 @@
+LLM-as-Judge evaluation (model: qwen3.8:27b)
+============================================================
+config      n    fluency  relevance obj_acc   overall 
+ar_google   6006 4.90     4.79      4.83      4.80    

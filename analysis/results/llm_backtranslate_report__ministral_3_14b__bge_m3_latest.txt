@@ -1,0 +1,4 @@
+LLM Round-Trip Translation Fidelity (model: ministral-3:14b, embed: bge-m3:latest)
+============================================================
+source      n    sem_sim   token_F1  BLEU-1  
+ar_google   2400 0.8196    0.5022    0.6314  
