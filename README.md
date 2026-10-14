@@ -17,6 +17,8 @@ Reproducible VLM Reassessment*.
   cross-lingual consistency, reference-style sensitivity, and prompt
   ablations.
 - `analysis/*.md` — experiment descriptions and invocation notes.
+- [`PROMPTS.md`](PROMPTS.md) — the exact prompt templates used for every
+  reported VLM and LLM generation or judgment task.
 
 ## Reproducing the follow-up analyses
 
